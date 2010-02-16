@@ -6,8 +6,7 @@ Link do slajdów z wykładów.
 ## Laboratoria
 
 1. {%= link_to "Funkcje printf i scanf", "/01" %}
-1. {%= link_to "Kompilacja i konsolidacja", "/02" %}
-1. {%= link_to "Pliki nagłówkowe", "/03" %}
+1. {%= link_to "Konsolidacja. Pliki nagłówkowe", "/02" %}
 
 
 ## Literatura
