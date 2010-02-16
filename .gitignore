@@ -6,3 +6,5 @@ pkg
 \#*
 README.html
 *.gem
+*.gemspec
+

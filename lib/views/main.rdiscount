@@ -2,16 +2,21 @@
 
 Link do slajdów z wykładów.
 
+
 ## Laboratoria
 
 1. {%= link_to "Funkcje printf i scanf", "/01" %}
 1. {%= link_to "Kompilacja i konsolidacja", "/02" %}
 1. {%= link_to "Pliki nagłówkowe", "/03" %}
 
+
 ## Literatura
 
-1. [FreeBSD Man Pages] [freebsd].
+1. [FreeBSD Man Pages] [freebsd]
 1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
+1. Kernighan Brian W., Ritchie Dennis M. 
+   [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
+1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
 
 
 #### Linki
