@@ -1,3 +1,87 @@
 #### {% title "Laboratorium 1" %}
 
-# Laboratorium 1
+# Funkcje *printf*, *scanf*
+
+1\. Funkcja *scanf* jest bardzo podobna do
+funkcji *printf* z tym, że czyta dane z *stdin*
+zamiast zapisywać wyniki na *stdout*. Najprościej mówiąc, użycie
+*scanf* polega na podaniu formatu wprowadzanych danych i adresu
+zmiennej, pod którą chcemy je zapisać. Oto przykłady:
+
+Wczytaj liczbę całkowitą i zapisz jej wartość do zmiennej *a*:
+
+    :::c
+    scanf("%d",&a)
+
+Wczytaj liczbę zmiennopozycyjną i zapisz jej wartość do zmiennej *b*:
+
+    :::c
+    scanf("%f",&b)
+
+Wczytaj dwie liczby całkowite odzielone spacją i zapisz ich wartości
+do zmiennych *c* oraz *d*:
+
+    :::c
+    scanf("%d %d", &c, &d)
+
+W miejsce `...` poniżej wpisz kod, tak aby powstały działające programy.
+
+Pierwszy program:
+
+    :::c
+    /* Program ten wykonuje konwersję ze stopni na radiany
+       według wzoru: rad = 2 * PI * deg / 360    */
+    #include <stdio.h>
+    #include <math.h>
+    int main() {
+       double deg, rad;
+       printf("Podaj kat w stopniach : ");
+       scanf("...", &deg);
+       rad = ... ;  /* grep PI /usr/include/math.h */
+       printf("%lf deg = %lf rad\n", ... , ...);
+       return 0;
+    }
+
+Drugi program:
+
+    :::c
+    /* Program ten dla dwóch liczb wczytanych z klawiatury
+       wypisuje, która z nich jest większa. */
+    #include <stdio.h>
+    int main()
+    {
+       int ..., ... ;
+
+       printf("Podaj pierwsza liczbe: ");
+       scanf(..., &licz1);
+       printf("...");
+       scanf(..., &licz2);
+       if (...)
+         ...
+       return 0;
+    }
+
+2\. Napisz program, który wczyta liczbę rzeczywistą i
+wypisze jej pierwiastek kwadratowy. W wypadku podania liczby
+ujemnej, program powinien wypisać komunikat o błędzie oraz
+zakończyć działanie.
+
+3\. Napisz program, który wczyta liczbę rzeczywistą i
+wypisze jej odwrotność oraz jej pierwiastek kwadratowy. 
+Program nie powinien obliczać odwrotności liczby 0
+oraz pierwiastka z liczby ujemnej. W takiej 
+sytuacji zamiast obliczeń program powinien wypisać
+odpowiedni komunikat.
+
+4\. Napisz program, który prosi użytkownika
+o wprowadzenie trzech liczb z klawiatury, a następnie
+wypisze sumę, iloczyn, najmniejszą i największą z 
+wprowadzonych liczb.
+
+Dialog na terminalu powinien wyglądać tak:
+
+    Wprowadź trzy liczby całkowite: 1 2 3
+    Suma wynosi: 6
+    Iloczyn wynosi: 6
+    Najmniejsza liczba to: 1
+    Największa liczba to: 3
