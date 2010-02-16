@@ -1,0 +1,18 @@
+# Języki Programowania
+
+Link do slajdów z wykładów.
+
+## Laboratoria
+
+1. {%= link_to "Kompilacja i konsolidacja", "/01" %}
+1. {%= link_to "Pliki nagłówkowe", "/02" %}
+1. {%= link_to "Funkcje printf i scanf", "/03" %}
+
+## Literatura
+
+1. [FreeBSD Man Pages] [freebsd].
+
+
+#### Linki
+
+[freebsd]: http://www.freebsd.org/cgi/man.cgi "FreeBSD Man Pages: Index Page"
