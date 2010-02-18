@@ -5,6 +5,15 @@
 1\. Dokonać kompilacji (opcja kompilatora *-c*) *biblioteka.c* oraz
 *glowny.c* Jakie pliki powstaną po wykonaniu tych poleceń?
 
+    :::c
+    /* plik glowny.c */
+    main() {
+      printf("hello world\n");
+    }
+
+    :::c
+    /* plik biblioteka.c */
+
 2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
 wykonać eksperyment.
@@ -12,6 +21,23 @@ wykonać eksperyment.
 3\. Zaobserwować komunikaty kompilatora po włączeniu opcji *-Wall*.  Do
 pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
 Czy komunikaty kompilatora zmieniły się?
+
+    /* plik glowny.c */
+    int main() {
+      hej();
+      return 0;
+    }
+
+    :::c
+    /* plik biblioteka.c */
+    include <stdio.h>
+    void hej(void) {
+      printf("hello world\n");
+    }
+
+    :::c
+    /* plik definicje.h */
+    void hej(void);
 
 4\. Dokonać konsolidacji (łączenia) plików obiektowych do programu
 wykonywalnego. Jaki plik powstaje domyślnie podczas łączenia? Zmienić
