@@ -121,6 +121,7 @@ blockquote p.author {
 
 h2 {
   font-size: 140%;
+  padding-top: 12px;
   padding-bottom: 6px;
   border-bottom: 2px dotted #D80000;
   color: #D80000;
