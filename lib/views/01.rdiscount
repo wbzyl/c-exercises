@@ -101,3 +101,21 @@ Dialog na terminalu powinien wyglądać tak:
     Iloczyn wynosi: 6
     Najmniejsza liczba to: 1
     Największa liczba to: 3
+
+9\. Napisać program, który wypisze tabelkę wartości pierwiastka
+kwadratowego. Program ma pytać o 
+
+* wartość poczatkową
+* wartość koncową
+* krok dla argumentu 
+
+i wypisywać tabelką w podanym zakresie.
+Liczby powinny być wypisywane z dokładnością czterech miejsc po
+przecinku.
+Na przykład, jeżeli podamy 1 jako
+wartość poczatkową, 2 jako końcowa i 0.5 jako krok,
+powinismy dostać:
+
+    1.0000  1.0000
+    1.5000  0.2247
+    2.0000  1.4142
