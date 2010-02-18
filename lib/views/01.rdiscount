@@ -11,9 +11,8 @@
       printf("hello world\n");
     }
 
-    :::c
     /* plik biblioteka.c */
-
+    
 2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
 wykonać eksperyment.
@@ -28,14 +27,12 @@ Czy komunikaty kompilatora zmieniły się?
       return 0;
     }
 
-    :::c
     /* plik biblioteka.c */
     include <stdio.h>
     void hej(void) {
       printf("hello world\n");
     }
 
-    :::c
     /* plik definicje.h */
     void hej(void);
 
