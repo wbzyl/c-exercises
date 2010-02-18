@@ -106,14 +106,14 @@ Dialog na terminalu powinien wyglądać tak:
 kwadratowego. Program ma pytać o 
 
 * wartość poczatkową
-* wartość koncową
+* wartość końcową
 * krok dla argumentu 
 
 i wypisywać tabelką w podanym zakresie.
 Liczby powinny być wypisywane z dokładnością czterech miejsc po
 przecinku.
 Na przykład, jeżeli podamy 1 jako
-wartość poczatkową, 2 jako końcowa i 0.5 jako krok,
+wartość poczatkową, 2 jako końcową i 0.5 jako krok,
 powinismy dostać:
 
     1.0000  1.0000
