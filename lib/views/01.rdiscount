@@ -1,6 +1,6 @@
 #### {% title "Laboratorium 1" %}
 
-# Funkcje *printf*, *scanf*
+# Budowanie programów w języku C
 
 1\. Funkcja *scanf* jest bardzo podobna do
 funkcji *printf* z tym, że czyta dane z *stdin*

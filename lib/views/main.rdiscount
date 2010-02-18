@@ -5,8 +5,9 @@ Link do slajdów z wykładów.
 
 ## Laboratoria
 
-1. {%= link_to "Funkcje printf i scanf", "/01" %}
-1. {%= link_to "Konsolidacja. Pliki nagłówkowe", "/02" %}
+1. {%= link_to "Budowanie programów w języku C", "/01" %}
+1. {%= link_to "Podstawowe typy danych", "/02" %}
+1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
 
 
 ## Literatura
