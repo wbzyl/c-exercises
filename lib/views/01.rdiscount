@@ -2,7 +2,23 @@
 
 # Budowanie programów w języku C
 
-1\. Funkcja *scanf* jest bardzo podobna do
+1\. Dokonać kompilacji (opcja kompilatora *-c*) *biblioteka.c* oraz
+*glowny.c* Jakie pliki powstaną po wykonaniu tych poleceń?
+
+2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
+*biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
+wykonać eksperyment.
+
+3\. Zaobserwować komunikaty kompilatora po włączeniu opcji *-Wall*.  Do
+pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
+Czy komunikaty kompilatora zmieniły się?
+
+4\. Dokonać konsolidacji (łączenia) plików obiektowych do programu
+wykonywalnego. Jaki plik powstaje domyślnie podczas łączenia? Zmienić
+nazwę pliku wykonywalnego (opcja *-o*). Czy pliki ze źródłami są
+konieczne do konsolidacji? Wykonać eksperyment.
+
+5\. Funkcja *scanf* jest bardzo podobna do
 funkcji *printf* z tym, że czyta dane z *stdin*
 zamiast zapisywać wyniki na *stdout*. Najprościej mówiąc, użycie
 *scanf* polega na podaniu formatu wprowadzanych danych i adresu
@@ -61,19 +77,19 @@ Drugi program:
        return 0;
     }
 
-2\. Napisz program, który wczyta liczbę rzeczywistą i
+6\. Napisz program, który wczyta liczbę rzeczywistą i
 wypisze jej pierwiastek kwadratowy. W wypadku podania liczby
 ujemnej, program powinien wypisać komunikat o błędzie oraz
 zakończyć działanie.
 
-3\. Napisz program, który wczyta liczbę rzeczywistą i
+7\. Napisz program, który wczyta liczbę rzeczywistą i
 wypisze jej odwrotność oraz jej pierwiastek kwadratowy. 
 Program nie powinien obliczać odwrotności liczby 0
 oraz pierwiastka z liczby ujemnej. W takiej 
 sytuacji zamiast obliczeń program powinien wypisać
 odpowiedni komunikat.
 
-4\. Napisz program, który prosi użytkownika
+8\. Napisz program, który prosi użytkownika
 o wprowadzenie trzech liczb z klawiatury, a następnie
 wypisze sumę, iloczyn, najmniejszą i największą z 
 wprowadzonych liczb.
