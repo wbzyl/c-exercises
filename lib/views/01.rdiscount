@@ -21,6 +21,7 @@ wykonać eksperyment.
 pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
 Czy komunikaty kompilatora zmieniły się?
 
+    :::c
     /* plik glowny.c */
     int main() {
       hej();
