@@ -34,6 +34,7 @@ wykonać eksperyment.
 pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
 Czy komunikaty kompilatora zmieniły się?
 
+    :::c
     /* plik definicje.h */
     void hej(void);
 
