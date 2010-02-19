@@ -17,10 +17,6 @@
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
 wykonać eksperyment.
 
-3\. Zaobserwować komunikaty kompilatora po włączeniu opcji *-Wall*.  Do
-pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
-Czy komunikaty kompilatora zmieniły się?
-
     :::c
     /* plik glowny.c */
     int main() {
@@ -29,10 +25,14 @@ Czy komunikaty kompilatora zmieniły się?
     }
 
     /* plik biblioteka.c */
-    include <stdio.h>
+    #include <stdio.h>
     void hej(void) {
       printf("hello world\n");
     }
+
+3\. Zaobserwować komunikaty kompilatora po włączeniu opcji *-Wall*.  Do
+pliku *glowny.c* dodać dyrektywę include dołączającą plik *defincje.h*.
+Czy komunikaty kompilatora zmieniły się?
 
     /* plik definicje.h */
     void hej(void);
