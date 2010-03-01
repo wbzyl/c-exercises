@@ -1,5 +1,12 @@
 #### {% title "Laboratorium 3" %}
 
-# Zmienne, stałe i ich zasięŋ, literały
+# Zmienne, stałe i ich zasięg, literały
 
-TODO
+1\. Napisz program, który pyta o Twoje imię, a następnie o nazwisko,
+po czym, wypisuje je w układzie: nazwisko, imię.
+
+2\. Napisz program, który pyta o Twoje imię, a następnie:
+
+* wypisuje je w polu o szerokości 20 znaków, przy prawym brzegu pola
+* wypisuje je w polu o szerokości 20 znaków, przy lewym brzegu pola
+* wypisuje je w polu o dwa znaki dłuższym niż imię

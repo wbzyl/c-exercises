@@ -4,7 +4,7 @@
 1. {%= link_to "Budowanie programów w języku C", "/01" %}
 1. {%= link_to "Podstawowe typy danych", "/02" %}
 1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
-
+1. {%= link_to "Operatory", "/04" %}
 
 ## Literatura
 
