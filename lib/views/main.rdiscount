@@ -6,6 +6,11 @@
 1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
 1. {%= link_to "Operatory", "/04" %}
 
+### Rozwiązania
+
+*  {%= link_to "Odpowiedzi do niektórych zadań", "/answers" %}
+
+
 ## Literatura
 
 1. [FreeBSD Man Pages] [freebsd]

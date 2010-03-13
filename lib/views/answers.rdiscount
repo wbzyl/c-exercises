@@ -1,0 +1,49 @@
+#### {% title "Odpowiedzi" %}
+
+# Odpowiedzi do niektórych zadań
+
+TODO
+
+## 2. Podstawowe typy danych
+
+Zadanie 2.
+
+    :::c
+    #include <stdio.h>
+    #include <ctype.h>
+    int main() {
+      int kod;
+      printf("Podaj kod ascii: ");
+      scanf("%i", &kod);
+      if (isprint(kod)) {
+        printf("%c\n", kod);
+      } else {
+        printf("znak niedrukowalny\n");
+      }
+      return 0;
+    }
+
+Zadanie 3.
+
+:::c
+#include <stdio.h>
+int main()
+{
+  int ROK = 31536000;	  /* liczba sekund w roku */
+  int ROK_P = 31622400;   /* liczba sekund w roku przestępnym */
+  int ROK_BIEZACY = 2010;
+
+  int w, i, leap;
+  int wynik = 0;
+  printf("Podaj wiek w latach: ");
+  scanf("%d", &w);
+  for (i = ROK_BIEZACY-1; i >= ROK_BIEZACY - w; i--) {
+    leap = ((i % 4 == 0 && i % 100 != 0) || i % 400 == 0);
+    if (leap == 1)
+      wynik = wynik + ROK_P;
+    else
+      wynik = wynik + ROK;
+  }
+  printf("Przeżyłeś w swoim życiu około %d sekund.\n", wynik);
+  return 0;
+}
