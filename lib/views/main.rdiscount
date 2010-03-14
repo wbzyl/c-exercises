@@ -14,6 +14,7 @@
 ## Literatura
 
 1. [FreeBSD Man Pages] [freebsd]
+1. [Online IDE & Debugging Tool] [ideone]
 1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
 1. Kernighan Brian W., Ritchie Dennis M. 
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
@@ -23,3 +24,4 @@
 #### Linki
 
 [freebsd]: http://www.freebsd.org/cgi/man.cgi "FreeBSD Man Pages: Index Page"
+[ideone]: http://ideone.com/ "Online IDE & Debugging Tool"
