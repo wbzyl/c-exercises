@@ -5,6 +5,12 @@
 1. {%= link_to "Podstawowe typy danych", "/02" %}
 1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
 1. {%= link_to "Operatory", "/04" %}
+1. {%= link_to "Pliki", "/05" %}
+
+Zadania dodatkowe:
+
+* {%= link_to "Zadania extra", "/extra" %}
+
 
 ### Rozwiązania
 

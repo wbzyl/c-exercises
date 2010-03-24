@@ -1,0 +1,24 @@
+#### {% title "Zadania Extra" %}
+
+# Zadania extra – dodatkowe
+
+**Czas**. 
+Napisz zestaw funkcji do obróbki „czasu” zawierających informację o
+godzinie, minucie, sekundzie w obrębie jednej doby. Informacje te
+zapamiętaj w strukturze:
+
+    :::c
+    struct czas {
+      int godzina;
+      int minuta;
+      int sekunda;
+    };
+
+Korzystając z napisanych funkcji, napisz program:
+
+* do określanie odstępu czasowego pomiędzy dwoma czasami,
+  czyli ile jest godzin, minut i sekund,
+  na przykład pomiędzy 10:15 a 15:10
+* wyliczający jaka cyfra pojawia się najczęściej w ciągu
+  dnia na wyświetlaczu zegarka elektronicznego z sekundnikiem
+* wypisujący ile jest pojawień się poszczególnych cyfr
