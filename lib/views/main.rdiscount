@@ -27,6 +27,12 @@ Zadania dodatkowe:
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
 
 
+## Biblioteki C
+
+1. {%= link_to "CSLib", "/doc/cslib-wb.tar.bz2" %} — biblioteka
+   początkującego programisty C.
+
+
 #### Linki
 
 [freebsd]: http://www.freebsd.org/cgi/man.cgi "FreeBSD Man Pages: Index Page"
