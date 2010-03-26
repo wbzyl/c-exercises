@@ -27,6 +27,15 @@ Zadania dodatkowe:
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
 
 
+## Biblioteki C, kompilatory...
+
+1. {%= link_to "CSLib", "/doc/cslib-wb.tar.bz2" %} — biblioteka
+   początkującego programisty C.
+1. [A C language family frontend for LLVM](http://clang.llvm.org/index.html) —
+   fast compiles and low memory use, **expressive diagnostics**,
+   GCC compatibility
+
+
 #### Linki
 
 [freebsd]: http://www.freebsd.org/cgi/man.cgi "FreeBSD Man Pages: Index Page"
