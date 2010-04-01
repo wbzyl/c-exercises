@@ -1,5 +1,32 @@
 #### {% title "Zadania Extra" %}
 
+# Rocco
+
+Na Sigmie zainstalowałem program *rocco*.
+Można go użyć do wygenerowania strony html
+z kodem programu i dokumentacją.
+Dokumentację piszemy w notacji markdown, dla przykładu:
+
+    :::c
+    // w *stdio.h* zadeklarowano funkcję *puts*
+    #include <stdio.h>
+
+    //### Program „hello world”
+
+    // każdy program w C zawiera funkcję main
+    int main (int argc, char *argv[]) {
+      puts("hello world");
+      return 0;
+    }
+
+    // i to by było tyle
+
+Program ten po wpisaniu do pliku *hello.c* zamieniamy na
+*hello.html* wykonując polecenie:
+
+    rocco -lc -c// hello.c
+
+
 # Zadania extra – dodatkowe
 
 **Czas**. 
