@@ -49,3 +49,25 @@ Korzystając z napisanych funkcji, napisz program:
 * wyliczający jaka cyfra pojawia się najczęściej w ciągu
   dnia na wyświetlaczu zegarka elektronicznego z sekundnikiem
 * wypisujący ile jest pojawień się poszczególnych cyfr
+
+
+## Biblioteka funkcji do obróbki tabel
+
+* Mateusz Pikora
+* Wojtek Przebieracz
+
+Biblioteka funkcji do obróbki tabel zawierających zarówno tekst jak
+i liczby: [tabele.h](/) (**brak odsyłacza**)
+
+Programy:
+
+* prosty organizer z funkcjami:
+  - dodawania nowych rekordów w postaci krótkiej wiadomości
+  - przypisanie rekordowi daty, czasu i priorytetu
+  - edytowanie i usuwanie rekordów
+  - usuwanie nieaktualnych rekordów
+  - zapisywanie/odczytywanie rekordów do/z pliku
+  - filtrowanie wyświetlania rekordów (wszystkie, z określonego dnia, o
+    określonym priorytecie itp.)
+
+* **brak drugiego programu**
