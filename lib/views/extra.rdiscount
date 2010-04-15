@@ -79,20 +79,19 @@ Programy:
 
 ## Szyfrowanie
 
-* Michał Mroczkowski
-* Maciek Stanik
+- Michał Mroczkowski
+- Maciek Stanik
 
-Biblioteka funkcji do szyfrowania szyfrem cezara, zamiany tekstu na ascii
-i na odwrót oraz liczenia najczęściej występujących słów i liter w podanym
-tekście. **trzy biblioteki do dwóch zadań**
+Biblioteka funkcji do szyfrowania, deszyfrowania szyfrem cezara, szyfrem
+liniowym, zamiany tekstu na ascii i na odwrót oraz zliczania częstości
+liter w podanym tekście.
 
 Programy:
 
-* Program do szyfrowania tekstu szyfrem cezara, możliwość podania
-dowolnego przesunięcia o liczbę liter (w szyfrze cezara jest przesunięcie
-o 3 litery)
-* Program, który w podanym tekście zlicza liczbę najczęściej
-występujących liter, słów.
+- Program do szyfrowania szyfrem cezara wraz z odszyfrowaniem
+- Program do szyfrowania szyfrem liniowym wraz z odszyfrowaniem przez sam
+  program (bez podawania czegokolwiek przez użytkownika
+
 
 
 ## Xstdio
