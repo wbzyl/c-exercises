@@ -146,10 +146,11 @@ wykresów
 
 ## ETBD — Edytor Tekstowej Bazy Danych
 
-Biblioteka do tworzenia i obróbki prostej bazy danych powstałej na
-plikach tekstowych.
+* Georges Liadis
+* Jakub Letniowski
 
-Biblioteka [ksiazka.h](/) z pakietem funkcji do obslugi bazy.
+Biblioteka do tworzenia i obróbki prostej bazy danych powstałej na
+plikach tekstowych. [ksiazka.h](/)
 
 Programy:
 
