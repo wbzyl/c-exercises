@@ -118,15 +118,10 @@ Programy:
 * Michał Piaskowski
 * Adam Łukaszewicz
 
-Biblioteka … zawierający funkcje zamieniającą tekst na kod ASCII,
-funkcję szyfrującą dany tekst oraz rozszyfrowującą. **tekst do poprawy**.
+Biblioteka funkcji do szyfrowania i rozszyfrowywania przy pomocą Szachownicy Polibiusza
+oraz zamiany tekstu na kod ASCII i na odwrót.
 
-Programy (**proszę te opisać programy**):
+Programy:
 
-* szyfrowanie tekstu
-* rozszyfrowywanie tekstu 
-
-
-# Zadania nadeslane po terminie
-
-???
+* Program do szyfrowania i rozszyfrowywania przy pomocy Szachownicy Polibiusza  
+* Program do zamiany tekstu na kod ASCII i na odwróŧ.
