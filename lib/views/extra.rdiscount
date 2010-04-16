@@ -93,7 +93,6 @@ Programy:
   program (bez podawania czegokolwiek przez użytkownika
 
 
-
 ## Xstdio
 
 * Maciej Jażdżewski 
@@ -125,3 +124,21 @@ Programy:
 
 * Program do szyfrowania i rozszyfrowywania przy pomocy Szachownicy Polibiusza  
 * Program do zamiany tekstu na kod ASCII i na odwróŧ.
+
+
+## Funkcja liniowa
+
+* Tomasz Januszewski
+* Krzysztof Kaczmarczyk
+* Paweł Maciejewski
+
+Biblioteka będzie zawierać funkcje służące do wyznaczania własności
+funkcji liniowej.
+
+Programy:
+
+* rysowanie wykresu: program będzie rysował na terminalu 
+wykres funkcji liniowej o zadanych, całkowitych współczynnikach
+* wypisanie własności: program wypisuje własności funkcji 
+liniowej podanej przez użytkownika, znajduje punkty przecięcia
+wykresów
