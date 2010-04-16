@@ -142,3 +142,22 @@ wykres funkcji liniowej o zadanych, całkowitych współczynnikach
 * wypisanie własności: program wypisuje własności funkcji 
 liniowej podanej przez użytkownika, znajduje punkty przecięcia
 wykresów
+
+
+## ETBD — Edytor Tekstowej Bazy Danych
+
+Biblioteka do tworzenia i obróbki prostej bazy danych powstałej na
+plikach tekstowych.
+
+Biblioteka [ksiazka.h](/) z pakietem funkcji do obslugi bazy.
+
+Programy:
+
+* Prosta książka telefoniczna. Funkcjonalność:
+  dodawanie nowych rekordów w postaci plików
+  z imieniem nazwiskiem i nr telefonu,
+  edytowanie i usuwanie plików,
+  zapisywanie i wyświetlanie zawartości plików,
+  możliwość przeszukiwania plików,
+  nadawanie unikalnego numeru każdemu plikowi.
+* Program testujący funkcje biblioteczne.
