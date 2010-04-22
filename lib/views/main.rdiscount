@@ -6,6 +6,7 @@
 1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
 1. {%= link_to "Operatory", "/04" %}
 1. {%= link_to "Pliki", "/05" %}
+1. {%= link_to "Struktury", "/06" %}
 
 Zadania dodatkowe:
 
