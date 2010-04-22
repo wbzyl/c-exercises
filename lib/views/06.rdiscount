@@ -2,3 +2,88 @@
 
 # Struktury
 
+W rozdziale 6.2 podręcznika K&R zaprezentowano kilka funkcji
+manipulujących punktami i prostokątami.
+
+Punkt:
+
+    :::c
+    struct point {
+      int x;
+      int y;
+    };
+
+Prostokąt:
+
+    :::c
+    struct rect {
+      struct point ll;  /* lower left */
+      struct point ur;  /* upper right */
+    };
+
+Funkcja, *makepoint*, z podanych współrzędnych
+tworzy strukturę *point*:
+
+    :::c
+    struct point makepoint(int x, int y) {
+      struct point tmp;
+      tmp.x = x;
+      tmp.y = y;
+      return temp;
+    }
+
+Funkcja *ptinrect* sprawdza, czy punkt leży
+wewnątrz prostokąta:
+
+    :::c
+    /* ptinrect: zwróć 1 jeśli p należy do r, 0 jeśli nie należy */
+    int ptinrect(struct point p, struct rect r) {
+      return p.x >= r.ll.x && p.x < r.ur.x 
+          && p.y >= r.ll.y && p.y < r.ur.y;
+    }
+
+Powyżej przyjmujemy konwencję, że prostokąt zawiera swoje
+krawędzie lewą i dolną, a nie zawiera pozostałych.
+
+Do każdej z funkcji przedstawionych poniżej napisać program
+sprawdzający poprawność implementacji.
+
+1\. Napisać funkcję *rectinrect* sprawdzającą, czy prostokąt jest
+zawarty wewnątrz prostokąta:
+
+    :::c
+    /* rectinrect: zwróć 1 jeśli r1 jest zawarty w r2, 0 
+       — w przeciwnym przypadku */
+    int rectinrect(struct rect r1, struct rect r);
+
+2\. Napisać funkcję *disjointrect* sprawdzającą, czy prostokąty
+są rozłączne:
+
+    :::c
+    /* disjointrect: zwróć 1 jeśli r1 jest rozłączny z r2, 
+       0 — w przeciwnym przypadku */
+    int disjointrect(struct rect 11, struct rect r2);
+
+3\. Napisać funkcję *ptinrectangles* sprawdzającą, czy
+punkt należy do jednego z prostokątów przekazanych w argumentach:
+
+    :::c
+    /* ptinrectangles: zwróć 1 jeśli p należy do jednego z prostokątów r1..., 
+       0 — w przeciwnym przypadku */
+    int ptinrectangles(struct point p, struct rect r1, ...);
+
+Wskazówka: skorzystać z przykładu ze strony manuala do *stdarg* —
+listy zmiennych argumentów.
+
+4\. Napisać program obliczający pole figury składającej się
+z prostokątów:
+
+    :::c
+    /* area: zwróć pole figury składającej się z prostokątów r1... */
+    int area(struct rect r1, ...);
+
+Na początek napisz uproszczoną wersję:
+
+    :::c
+    /* area: zwróć pole figury składającej się z prostokątów r1 i r2 */
+    int area(struct rect r1, struct r2);
