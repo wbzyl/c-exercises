@@ -61,7 +61,8 @@ Korzystając z napisanych funkcji, napisz program:
 * Wojtek Przebieracz
 
 Biblioteka funkcji do obróbki tabel zawierających zarówno tekst jak
-i liczby: [tabele.h](/) (**brak odsyłacza**)
+i liczby: 
+[tabele.h](http://sigma.ug.edu.pl/~wprzebieracz/projekt/tabele.h)
 
 Programy:
 
@@ -84,7 +85,8 @@ Programy:
 
 Biblioteka funkcji do szyfrowania, deszyfrowania szyfrem cezara, szyfrem
 liniowym, zamiany tekstu na ascii i na odwrót oraz zliczania częstości
-liter w podanym tekście.
+liter w podanym tekście:
+[szyfrowanie.h](http://sigma.ug.edu.pl/~mmroczkowski/szyfrowanie.h)
 
 Programy:
 
@@ -99,7 +101,8 @@ Programy:
 * Kamil Karwowski
 
 Biblioteka funkcji do wczytywania, zapisywania i edycji danych z pliku
-zewnetrznego.
+zewnetrznego:
+[txt.h](http://sigma.ug.edu.pl/~mjazdzewski/projekt/txt.h)
 
 Programy:
 
@@ -117,8 +120,10 @@ Programy:
 * Michał Piaskowski
 * Adam Łukaszewicz
 
-Biblioteka funkcji do szyfrowania i rozszyfrowywania przy pomocą Szachownicy Polibiusza
-oraz zamiany tekstu na kod ASCII i na odwrót.
+Biblioteka funkcji do szyfrowania i rozszyfrowywania 
+przy pomocą Szachownicy Polibiusza
+oraz zamiany tekstu na kod ASCII i na odwrót:
+[szyfr.h](http://sigma.ug.edu.pl/~alukaszewicz2/projekt/szyfr.h)
 
 Programy:
 
@@ -133,7 +138,8 @@ Programy:
 * Paweł Maciejewski
 
 Biblioteka będzie zawierać funkcje służące do wyznaczania własności
-funkcji liniowej.
+funkcji liniowej:
+[linia.h](http://sigma.ug.edu.pl/~pmaciejewski/proj/linia.h)
 
 Programy:
 
@@ -150,7 +156,8 @@ wykresów
 * Jakub Letniowski
 
 Biblioteka do tworzenia i obróbki prostej bazy danych powstałej na
-plikach tekstowych. [ksiazka.h](/)
+plikach tekstowych:
+[ksiazka.h](http://sigma.ug.edu.pl/~gliadis/jp/projekt/ksiazka.h)
 
 Programy:
 
@@ -162,3 +169,11 @@ Programy:
   możliwość przeszukiwania plików,
   nadawanie unikalnego numeru każdemu plikowi.
 * Program testujący funkcje biblioteczne.
+
+
+## Miny
+
+* Zbigniew Kisły
+* Dorian Dobkowski
+
+[mines.h](/)
