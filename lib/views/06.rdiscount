@@ -86,4 +86,73 @@ Na początek napisz uproszczoną wersję:
 
     :::c
     /* area: zwróć pole figury składającej się z prostokątów r1 i r2 */
-    int area(struct rect r1, struct r2);
+    int area(struct rect r1, struct rect r2);
+
+
+## Nowe zadania
+
+5\. Napisać program, który dla podanych dwóch prostokątów wylicza
+najmniejszy prostokąt je zawierający:
+
+    :::
+    /* minspan: zwróć najmniejszy prostokąt zawierający r1 i r2 */
+    struct rect minspan(struct rect r1, struct rect r2);
+
+Dla przykładu, poniższe wywołania powinny zwrócić:
+
+    :::c
+    struct rect r1 = { {0, 0}, {2, 2} };
+    struct rect r2 = { {1, 1}, {3, 3} };
+    struct rect rr;
+    rr = minspan(r1, r2);  //=> rr == { {0, 0}, {3, 3} }
+
+Szablon programu testującego:
+
+    :::c
+    #include <stdio.h>
+    struct point {
+      int x;
+      int y;
+    };
+    struct rect {
+      struct point ll;  /* lower left */
+      struct point ur;  /* upper right */
+    };
+    struct rect minspan(struct rect r1, struct rect r2) {
+      return r1; /* wkleić kod obliczający minspan */
+    };
+    /* dodać kilka testów */
+    int main (int argc, char *argv[]) {
+      struct rect r1 = { {0, 0}, {2, 2} };
+      struct rect r2 = { {1, 1}, {3, 3} };
+      struct rect rr;
+      rr = minspan(r1, r2);
+      printf("rr = ll[%d,%d], ul[%d,%d]\n", rr.ll.x, rr.ll.y, rr.ur.x, rr.ur.y);
+
+      return 0;
+    }
+
+Poniższe zadania pochodzą z podręcznika K&R, rozdział 6.5.
+Na początek polecam lekturę dokumentacji+kodu programu 
+{%= link_to "Zliczanie słów", "/doc/fw.pdf" %}.
+
+W poniższych programach ogranicz się do tekstów
+nie zawierających polskich znaków diakrytycznych, tj.
+znaków „ąĄćĆęĘłŁńŃóÓśŚźŹżŻ”.
+
+6\. Napisz program, który czyta tekst programu napisanego w C
+i wypisuje w porzadku alfabetycznym wszystkie grupy nazw
+zmiennych o identycznych sześciu początkowych znakach
+i różniących się którymkolwiek z dalszych znaków.
+Nie bierz pod uwagę słów występujących w stałych napisowych
+oraz komentarzach. Niech liczba 6 będzie parametrem,
+który można zmienić w wierszu wywołania programu
+
+7\. Napisz program tworzący skorowidz, tj. wypisujący listę
+wszystkich słów dokumentu i dla każdego słowa listę numerów
+wierszy, w których to słowo wystąpiło. Ze skorowidza
+usuń słowa-ozdobniki w rodzaju „ten”, „lub”, „i” itp.
+
+8\. Napisz program, który zlicza różne słowa podane na wejściu
+i wypisuje je uporządkowane według malejącej krotności ich
+wystąpień. Każde słowo poprzedź jego krotnością.
