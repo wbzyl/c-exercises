@@ -94,7 +94,7 @@ Na początek napisz uproszczoną wersję:
 5\. Napisać program, który dla podanych dwóch prostokątów wylicza
 najmniejszy prostokąt je zawierający:
 
-    :::
+    :::c
     /* minspan: zwróć najmniejszy prostokąt zawierający r1 i r2 */
     struct rect minspan(struct rect r1, struct rect r2);
 
