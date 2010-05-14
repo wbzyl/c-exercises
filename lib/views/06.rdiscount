@@ -62,7 +62,7 @@ są rozłączne:
     :::c
     /* disjointrect: zwróć 1 jeśli r1 jest rozłączny z r2, 
        0 — w przeciwnym przypadku */
-    int disjointrect(struct rect 11, struct rect r2);
+    int disjointrect(struct rect r1, struct rect r2);
 
 3\. Napisać funkcję *ptinrectangles* sprawdzającą, czy
 punkt należy do jednego z prostokątów przekazanych w argumentach:

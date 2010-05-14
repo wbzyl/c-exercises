@@ -62,7 +62,7 @@ Korzystając z napisanych funkcji, napisz program:
 
 Biblioteka funkcji do obróbki tabel zawierających zarówno tekst jak
 i liczby: 
-[tabele.h](http://sigma.ug.edu.pl/~wprzebieracz/projekt/tabele.h)
+[tabele.h](http://sigma.ug.edu.pl/~mpikora/projekt/tabele.h)
 
 Programy:
 
@@ -139,7 +139,7 @@ Programy:
 
 Biblioteka będzie zawierać funkcje służące do wyznaczania własności
 funkcji liniowej:
-[linia.h](http://sigma.ug.edu.pl/~pmaciejewski/proj/linia.h)
+[linia.h](http://github.com/pmaciejewski/Linear/blob/master/linear.h)
 
 Programy:
 
@@ -176,4 +176,4 @@ Programy:
 * Zbigniew Kisły
 * Dorian Dobkowski
 
-[mines.h](/)
+[mines.h](http://sigma.inf.ug.edu.pl/~zkisly/3.0/mines.h)
