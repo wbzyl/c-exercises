@@ -1,3 +1,16 @@
+<blockquote>
+  {%= image_tag "/images/hemingway-ernest.jpg", :alt => "[Ernest Hemingway]" %}
+  <p>
+   The best way is always to stop when you are going good and when you
+   know what will happen next. If you do that every day […] you will
+   never be stuck. Always stop while you are going good and don’t
+   think about it or worry about it until you start to write the next
+   day. That way your subconscious will work on it all the time. But
+   if you think about it consciously or worry about it you will kill
+   it and your brain will be tired before you start.
+  </p>
+</blockquote>
+
 
 ## Laboratoria
 
