@@ -14,12 +14,19 @@
 
 ## Laboratoria
 
-1. {%= link_to "Budowanie programów w języku C", "/01" %}
-1. {%= link_to "Podstawowe typy danych", "/02" %}
-1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/03" %}
-1. {%= link_to "Operatory", "/04" %}
-1. {%= link_to "Pliki", "/05" %}
-1. {%= link_to "Struktury", "/06" %}
+1. {%= link_to "Budowanie programów w języku C", "/budowanie-programow" %}
+1. {%= link_to "Podstawowe typy danych", "/podstawowe-typy-danych" %}
+1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/zmienne-stale-zasieg" %}
+1. {%= link_to "Elementarz 1", "/elementarz-1" %}
+1. {%= link_to "TODO: Pętle", "/petle" %}
+1. {%= link_to "Funkcje", "/funkcje" %}
+1. {%= link_to "Elementarz 2", "/elementarz-2" %}
+1. {%= link_to "Operatory", "/operatory" %}
+1. {%= link_to "TODO: Elementarz 3", "/elementarz-3" %}
+1. {%= link_to "TODO: Rekurencja", "/rekurencja" %}
+1. {%= link_to "Pliki", "/pliki" %}
+1. {%= link_to "TODO: Wskaźniki 1", "/wskazniki-1" %}
+1. {%= link_to "Struktury", "/struktury" %}
 
 Zadania dodatkowe:
 

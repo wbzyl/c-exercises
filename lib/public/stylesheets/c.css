@@ -195,3 +195,7 @@ blockquote h1 {
   margin-top: -18px;
   -moz-border-radius: 4px;
 }
+
+ol.lower-alpha li {
+  list-style-type: lower-alpha;
+}
