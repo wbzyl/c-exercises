@@ -1,73 +1,56 @@
-<a name="ELEM3"></a>
+#### {% title "Elementarz 3" %}
 
+# Elementarz 3
 
-<h3>    Elementarz 3</h3>
-
-
-<p><b>Zadanie 1.</b>
-W poniższym programie poprzestawiano wiersze
-oraz wykropkowano tekst w funkcji <kbd>printf</kbd>.
-Uporządkuj wiersze oraz uzupełnij brakujący tekst,
-tak aby powstał działający program, który odpowiada
-na pewne pytanie. Na jakie pytanie daje on odpowiedź?</p>
-<code lang="ansic">
-#include &lt;stdio.h&gt;
-int main(){
-  switch (number % 2) {
-  printf("Podaj liczbę całkowitą: ");
-  case 0: printf("Podano liczbę ...");
-  return 0;
-  case 1: printf("Podano liczbę ...");
-  scanf("%d",&amp;number);
-  }
-}
-</code>
-
-<p><b>Zadanie 2.</b> W poniższym programie, który kopiując
+1\. W poniższym programie, który kopiując
 wejście na wyjście zastępuje kazdy znak tabulacji przez
 \t oraz każdy znak \ przez dwa takie znaki, zostały
 przestawione wiersze. Uporzadkuj je, tak aby powstał
 działający program.</p>
-<pre>#include &lt;stdio.h&gt;
-while ((c=getchar())!=EOF)
-}
-printf("\\t");
-else if (c=='\\')
-printf("\\\\");
-if (c=='\t')
-else
-int c;
-putchar(c);
-int main() {
-return 0;
-</pre>
 
-<p><b>Zadanie 3.</b> Jeśli korzystamy z funkcji z biblioteki
+    :::c
+    #include <stdio.h>
+    while ((c=getchar())!=EOF)
+    }
+    printf("\\t");
+    else if (c=='\\')
+    printf("\\\\");
+    if (c=='\t')
+    else
+    int c;
+    putchar(c);
+    int main() {
+    return 0;
+
+2\. Jeśli korzystamy z funkcji z biblioteki
 matematycznej języka C, to na początku programu piszemy
-<kbd>#include&nbsp;&lt;math.h&gt;</kbd>, a program kompilujemy
-z dodatkową opcją <kbd>-lm</kbd>.
-Napisz program, który wypisuje w postaci tabelki pierwiastki
-z pierwszych 20 liczb naturalnych.</p>
+`#include <math.h>`, a program kompilujemy
+z dodatkową opcją *-lm*.
 
-<p><b>Zadanie 4.</b> Trójkąt pitagorejski to trójkąt prostokątny,
+Napisz program, wypisujący w postaci tabelki pierwiastki
+z pierwszych 20 liczb naturalnych.
+
+4\. Trójkąt pitagorejski to trójkąt prostokątny,
 w którym długość każdego boku jest liczbą całkowitą.
 Napisz program wypisujący wszystkie trójkąty pitagorejskie,
-których obwód nie przekracza 1000.</p>
+których obwód nie przekracza 1000.
 
-<p><b>Zadanie 5.</b> Napisz program tworzący histogram częstości
-występowania różnych znaków pochodzących z wejścia.
+5\. Napisz program tworzący histogram częstości
+występowania różnych znaków podanych na *stdin*.
 Uwaga: łatwiej rysuje się histogram z wykresami
 poziomymi; pionowa orientacja jest bardziej wymagająca.
-Wynik działania tego programu na tekście tego akapitu
-może wyglądać tak:</p>
-<pre>znak    liczba znaków
------------------------
-\n       6   ******
-ą        4   ****
-c       10   **********
-ę        3   ***
-h        5   *****
-y       10   **********
-ż        2   **
-...    ...   ...
-</pre>
+
+Wynik działania programu (wersja pozioma)
+na tekście tego akapitu może wyglądać tak:
+
+    znak    liczba znaków
+    -----------------------
+    \n       6   ******
+    ą        4   ****
+    c       10   **********
+    ę        3   ***
+    h        5   *****
+    y       10   **********
+    ż        2   **
+    ...    ...   ...
+

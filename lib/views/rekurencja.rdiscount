@@ -1,69 +1,53 @@
-<a name="RKRNCJ"></a>
-<h3>    Rekurencja</h3>
+#### {% title "Rekurencja" %}
 
-<!--
-<p>Szablony programów oraz gotowy plik <kbd>Makefile</kbd>
-do tego projektu znajdziesz <%= link_to "tutaj", "/c/300-Rekurencja/ex" %>
-</p>
--->
+# Rekurencja
 
-<p><b>Zadanie 1.</b> Napisać rekurencyjną implementację funkcji
-obliczającej n^k (n&nbsp;do&nbsp;potęgi&nbsp;k).
-</p>
+1\. Napisać rekurencyjną implementację funkcji
+obliczającej n^k (n do potęgi k).
 
-<p><b>Zadanie 2.</b> Napisać funkcję rekurencyjną C(n,k) obliczającą
-współczynnik Newtona `<kbd>n</kbd>&nbsp;po&nbsp;<kbd>k</kbd>'
-(czyli liczbę podzbiorów <kbd>k</kbd>-elementowych zbioru
-<kbd>n</kbd>-elementowego).
-</p>
+2\. Napisać funkcję rekurencyjną *C(n,k)* obliczającą
+współczynnik Newtona *n po k*,
+czyli liczbę podzbiorów *k*-elementowych zbioru
+*n*-elementowego.
 
-<p><b>Zadanie 3.</b> Napisać funkcję rekurencyjną odwracającą
+3\. Napisać funkcję rekurencyjną odwracającą
 kolejność liter w napisie podanym na wejściu.
-</p>
 
-<p><b>Zadanie 4.</b> Korzystając z twierdzenia Euklidesa,
+4\. Korzystając z twierdzenia Euklidesa,
 napisać program obliczający rekurencyjnie największy wspólny
 dzielnik z liczb podanych na wejściu.
-</p>
 
-<p><b>Zadanie 5.</b>
-Napisać funkcję rekurencyjną, która wypisuje wszystkie n-wyrazowe
-ciągi binarne.
-</p>
+5\. Napisać funkcję rekurencyjną, która wypisuje wszystkie
+*n*-wyrazowe ciągi binarne.
 
-<p><b>Zadanie 6.</b>
-Napisać funkcję rekurencyjną, która wypisuje wszystkie podzbiory
-zbioru 1, 2, ..., n.
-</p>
+6\. Napisać funkcję rekurencyjną, która wypisuje wszystkie podzbiory
+zbioru { 1, 2, ..., n }.
 
-<p><b>Zadanie 7.</b> L-system (albo system Lindenmayer'a)
+7\. L-system (albo system Lindenmayer'a)
 to zwięzła notacja do opisu iteracyjnej grafiki.
 L-system składa się z symbolu początkowego oraz
-z&nbsp;jednej lub kilku reguł przepisywania (produkcji).
-Oto przykład:</p>
-<pre>F               (symbol początkowy)
-F -> F+F--F+F   (reguła przepisywania)
-</pre>
-<p>Zaczynając od symbolu początkowego i dwukrotnie
-korzystając z reguły przepisywania otrzymamy:</p>
-<pre>F ->
-F+F--F+F ->
-F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F
-</pre>
-<p>
-<img src="/images/koch2.png" alt="[bok platka Kocha]" align="right"/>
-Jeśli teraz umówimy się, że `<kbd>F</kbd>' oznacza polecenie:
-narysuj odcinek, `<kbd>+</kbd>' oznacza skręć w lewo
-o&nbsp;60 stopni i `<kbd>-</kbd>' oznacza skręć w prawo
-o&nbsp;60 stopni, to otrzymamy taki rysunek:
-</p>
+z jednej lub kilku reguł przepisywania (produkcji).
 
-<p>Więcej przykładów L-systemów znajdziesz np.
+Oto przykład:
+
+    F               (symbol początkowy)
+    F -> F+F--F+F   (reguła przepisywania)
+
+Zaczynając od symbolu początkowego i dwukrotnie
+korzystając z reguły przepisywania otrzymamy:
+    F ->
+    F+F--F+F ->
+    F+F--F+F+F+F--F+F--F+F--F+F+F+F--F+F
+
+<blockquote>
+{%= image_tag "/images/koch2.png", :alt => "[bok platka Kocha]" %}
+</blockquote>
+
+Jeśli teraz umówimy się, że *F* oznacza polecenie: narysuj odcinek,
+*+* oznacza skręć w lewo o 60°, a *-* skręć w prawo o 60°, to
+otrzymamy taki rysunek
+
+Więcej przykładów L-systemów znajdziesz np.
 <a href="http://mathforum.org/advanced/robertd/lsys2d.html">tutaj</a>.
 Narysuj jeden z fraktali przedstawionych na tej stronie. Zaprojektuj
-i narysuj własnego fraktala.
-</p>
-
-<p><b>Zadanie 8.</b> Program <kbd>tree</kbd> z dopisywaniem uprawnień
-plików/katalogów albo czegokolwiek.
-</p>
+i narysuj własnego fraktala.
