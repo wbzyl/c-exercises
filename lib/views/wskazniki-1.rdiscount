@@ -1,40 +1,37 @@
-<a name="PNTRS1"></a>
+#### {% title "Rekurencja" %}
 
-<h3>    Wskaźniki</h3>
+# Wskaźniki
 
 <blockquote><a href="http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html">The
   Evolution of a Programmer</a>
 </blockquote>
 
-<p><b>Zadanie 1.</b>
-Uzupełnij poniższy kod, tak aby powstał działający program:
-</p>
-<code lang="ansic">
-void kwadrat (int *n){
-  /* podnieś liczbę *n do kwadratu */
-  ...
-}
-int main()
-{
-  int liczba = 5;
-  int *wsk = ...;
-  kwadrat(wsk);
-  printf(...);  /* wypisujemy liczbę 5 i jej kwadrat 25 */
-  return 0;
-}
-</code>
+1\. uzupełnij poniższy kod, tak aby powstał działajęcy program:
 
-<p><b>Zadanie 2.</b>
-Uzupełnić tabelę
-<kbd>int tab[10]</kbd> kolejnymi liczbami parzystymi zaczynając od 10.
-Korzystając z wskaźników wysumować wartości elementów tablicy
-<kbd>tab</kbd>, a następnie sumę wypisać na ekranie.
-</p>
+    :::c
+    /* oblicz kwadrat liczby n */
+    void kwadrat (int *n) {
+      ...
+    }
+    void wczytaj_liczbe(int *n) {
+      printf("Wpisz liczbę naturalną: ");
+      ...
+    } 
+    int main()
+    {
+      int liczba;
+      ...
+      wczytaj_liczbe(...);
+      kwadrat(...);
+      printf(...);  /* wypisz wczytaną liczbę oraz jej kwadrat */
+      return 0;
+    }
 
-<p><b>Zadanie 3.</b>
-Napisz program, który korzysta z dwóch
-tablic. Jedna to tablica 10 różnych liczb całkowitych z
-zakresu 1..10, druga to tablica wskaźników na liczby całkowite.
+
+2\. Napisz program, który korzysta z dwóch
+tablic. Jedna to tablica 10 różnych liczb całkowitych 
+z zakresu od 1 do 10, druga to tablica wskaźników na liczby całkowite.
+
 Przeprowadź proste przeszukiwanie tablicy liczb w celu odszukania
 najmniejszej i zapamiętaj jej wskaźnik w tablicy wskaźników.
 Potem poszukaj kolejnej i ponownie zapamiętaj jej wskaźnik na
@@ -43,37 +40,43 @@ tablicę wskaźników. Zwróć uwagę na to, że takim sposobem możesz
 posortować nieduże tablice liczb całkowitych bez konieczności
 zmiany w nich kolejności danych. Wypisz na ekran zawartość obu
 tablic.
-<i>Wskazówka</i>: skorzystaj z programu <kbd>cdecl</kbd>;
-uruchom program <kbd>cdecl</kbd> i wpisz:
-<kbd>declare a as array 10 of pointer to int</kbd>;
-przeczytaj stronę manuala programu <kbd>cdecl</kbd>
-</p>
 
-<p><b>Zadanie 4.</b> Zadeklaruj w programie tablicę
+**Wskazówka:** skorzystaj z programu *cdecl*;
+uruchom program *cdecl* i wpisz:
+
+    declare a as array 10 of pointer to int
+
+Przeczytaj stronę manuala programu *cdecl*.
+
+3\. Zadeklaruj w programie tablicę
 dziesięcioelementową wskaźników do tablic pięcioelementowych
 wskaźników na liczby rzeczywiste. Następnie wczytaj do tej tablicy
 kilka liczb. Wypisz na wyjście te liczby.
-<i>Wskazówka</i>: skorzystaj z programu <kbd>cdecl</kbd>
-</p>
 
-<p><b>Zadanie 5.</b> Napisz program <kbd>tail</kbd> wypisujący
-<i>n</i> ostatnich wierszy tekstu podanego na wejściu.
-Domyślną wartością <i>n</i> jest 10, ale wartość tę można
+**Wskazówka:** skorzystaj z programu *cdecl*.
+
+4\. Napisz program *xtail* wypisujący
+*n* ostatnich wierszy tekstu podanego na wejściu.
+
+Domyślną wartością *n* jest 10, ale wartość tę można
 zmienić za pomocą opcjonalnego argumentu wywołania programu.
-Na przykład, każde z poleceń</p>
-<pre>tail  -n 5
-tail  --lines 5
-</pre>
-<p>spowoduje wypisanie 5 ostatnich wierszy.
+Na przykład, każde z poleceń:
+
+    tail  -n 5
+    tail  --lines 5
+
+spowoduje wypisanie 5 ostatnich wierszy.
+
 Program powinien działac sensownie niezależnie od tego,
-jak nierozsądne są dane wejściowe lub wartość <i>n</i>.
+jak nierozsądne są dane wejściowe lub wartość *n*.
 Przygotować zestaw testów pokazujących
-`rozsądne zachowanie' programu.<br/>
+„rozsądne zachowanie” programu.
+
 Uwaga 1: wiersze powinny być gromadzone w tablicy
-wskaźników do char.<br/>
+wskaźników do char.
+
 Uwaga 2: do programu
 dodać dodatkowe opcje: `author', `help' i `version';
 do obsługi opcji wykorzystać funkcję
-<kbd>getopt_long</kbd> albo skorzystać z biblioteki <kbd>popt</kbd>
+*getopt_long* albo skorzystać z biblioteki *popt*
 (przykłady użycia można znaleźć na stronach manuala).
-</p>
