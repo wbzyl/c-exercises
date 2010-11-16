@@ -2,6 +2,15 @@
 
 # Rocco
 
+<blockquote>
+{%= image_tag "/images/edsger_wybe_dijkstra.jpg", :alt => "[Edsger Dijkstra]" %}
+<p>
+  If debugging is the process of removing software bugs, 
+  then programming must be the process of putting them in.
+</p>
+<p class="author">— Edsger Dijkstra</p>
+</blockquote>
+
 Na Sigmie zainstalowałem program *rocco*.
 Można go użyć do wygenerowania strony html
 z kodem programu i dokumentacją.
@@ -31,7 +40,7 @@ Program ten po wpisaniu do pliku *hello.c* zamieniamy na
 [Anatomy of Linux dynamic libraries](http://www.ibm.com/developerworks/linux/library/l-dynamic-libraries/).
 
 
-# Zadania extra – dodatkowe
+# Zadania extra-dodatkowe
 
 **Czas**. 
 Napisz zestaw funkcji do obróbki „czasu” zawierających informację o
