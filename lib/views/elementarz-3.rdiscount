@@ -22,20 +22,23 @@ działający program.</p>
     int main() {
     return 0;
 
-2\. Jeśli korzystamy z funkcji z biblioteki
-matematycznej języka C, to na początku programu piszemy
-`#include <math.h>`, a program kompilujemy
-z dodatkową opcją *-lm*.
-
-Napisz program, wypisujący w postaci tabelki pierwiastki
+2\. Napisz program, wypisujący w postaci tabelki pierwiastki
 z pierwszych 20 liczb naturalnych.
 
-4\. Trójkąt pitagorejski to trójkąt prostokątny,
+Uwaga: Jeśli korzystamy z funkcji z biblioteki
+matematycznej języka C, to na początku programu piszemy
+`#include <math.h>`, a program kompilujemy
+z dodatkową opcją *-lm*. Zazwyczaj opcję tę znajdziemy
+w pliku *Makefile*:
+
+    CFLAGS=-Wall -g -lm
+
+3\. Trójkąt pitagorejski to trójkąt prostokątny,
 w którym długość każdego boku jest liczbą całkowitą.
 Napisz program wypisujący wszystkie trójkąty pitagorejskie,
 których obwód nie przekracza 1000.
 
-5\. Napisz program tworzący histogram częstości
+4\. Napisz program tworzący histogram częstości
 występowania różnych znaków podanych na *stdin*.
 Uwaga: łatwiej rysuje się histogram z wykresami
 poziomymi; pionowa orientacja jest bardziej wymagająca.
@@ -46,11 +49,11 @@ na tekście tego akapitu może wyglądać tak:
     znak    liczba znaków
     -----------------------
     \n       6   ******
-    ą        4   ****
+    a        4   ****
     c       10   **********
-    ę        3   ***
+    e        3   ***
     h        5   *****
     y       10   **********
-    ż        2   **
+    z        2   **
     ...    ...   ...
 

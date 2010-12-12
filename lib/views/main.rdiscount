@@ -19,6 +19,7 @@
 1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/zmienne-stale-zasieg" %}
 1. {%= link_to "Elementarz 1", "/elementarz-1" %}
 1. {%= link_to "Pętle", "/petle" %}
+1. {%= link_to "Automaty skończone", "/automaty" %}
 1. {%= link_to "Funkcje", "/funkcje" %}
 1. {%= link_to "Elementarz 2", "/elementarz-2" %}
 1. {%= link_to "Operatory", "/operatory" %}

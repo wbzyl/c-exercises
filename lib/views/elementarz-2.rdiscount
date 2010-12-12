@@ -84,8 +84,3 @@ wiersza tekstu wczytanego z *stdin*.
           tabulacji = %d, nowego wiersza = %d\n", ... );
        return 0;
     }
-
-5\. Napisz program, który – przepisując wejście na wyjście
-– będzie zastępować jednym znakiem odstępu
-każdy ciąg złożony z jednego lub kilku znaków
-odstępu lub tabulacji.

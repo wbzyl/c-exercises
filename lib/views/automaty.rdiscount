@@ -1,0 +1,11 @@
+#### {% title "Automaty skończone" %}
+
+# Automaty skończone
+
+1\. Napisz program, który – przepisując wejście na wyjście
+– będzie zastępować jednym znakiem odstępu
+każdy ciąg złożony z jednego lub kilku znaków
+odstępu lub tabulacji.
+
+2\. Napisać program usuwający komentarze z tekstu
+programu napisanego w C.
