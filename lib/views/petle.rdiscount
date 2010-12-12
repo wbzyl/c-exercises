@@ -67,11 +67,13 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
     ***     **        **     ***
     ****    *          *    ****
 
+<!--
    **Zadanie dodatkowe.** 
    Połącz swój kod składający się z czterech oddzielnych bloków 
    (z których każdy rysuje jeden wzór) w jeden program wyświetlający
    cztery wzory **obok** siebie sprytnie używając zagnieżdżonych
    pętli *for*.
+-->
 
 9\. Kierowcy interesują się zużyciem paliwa do swoich samochodów.
    Napisz program, który będzie pobierał z pliku liczbę przejechanych
