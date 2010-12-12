@@ -7,5 +7,16 @@
 każdy ciąg złożony z jednego lub kilku znaków
 odstępu lub tabulacji.
 
+Na przykład, następujący ciąg:
+
+    1[spacja][spacja]2[tab][tab]3[tab][tab][spacja]4
+
+powinien zostać przepisany na wyjście jako:
+    1[spacja]2[spacja]3[spacja][spacja]4
+
+Przykładowy automat skończony do tego zadania:
+
+{%= image_tag "/images/duplicate_ws.png", :alt => "[Automat skończony]" %}
+
 2\. Napisać program usuwający komentarze z tekstu
 programu napisanego w C.
