@@ -1,24 +1,36 @@
 #include <stdio.h>
+#include <math.h>
+
 #include <time.h>
 
 /* high resolution time */
+clock_t startclick, clicks;
+#define START startclick = clock()
+#define STOP(co) clicks = clock() - startclick; printf("czas wykonania %s = %ld\n", co, clicks)
 
 int main()
 {
-  clock_t  startclick, clicks;
-  long int i, wynik;
+  long int i, wynik, pierwiastek;
 
-  printf("na moim komputerze CLOCKS_PER_SEC = %ld\n", CLOCKS_PER_SEC);
-
-  startclick = clock();
+  /*
+    printf("na moim komputerze CLOCKS_PER_SEC = %ld\n", CLOCKS_PER_SEC);
+    na moim komputerze CLOCKS_PER_SEC = 10^6
+  */
+ 
+  START;
 
   wynik = 0;
-  for (i = 0; i < 100000000; i++) {
+  for (i = 0; i < 2000000; i++) {  /* 2*10^6 */
     wynik = wynik + i ;
+    pierwiastek = sqrt(wynik);
+    /* 
+      a tak jest dużo szybciej:
+        pierwiastek = sqrt(i);
+      dlaczego?
+    */
   }
 
-  clicks = clock() - startclick;
-  printf("czas wykonania = %ld\n", clicks);
+  STOP("pętli");
 
   return 0;
 }
