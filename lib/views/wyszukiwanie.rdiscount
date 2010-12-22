@@ -1,0 +1,51 @@
+#### {% title "Laboratorium 16" %}
+
+# TODO: Wyszukiwanie
+
+Cel: który program będzie najszybszy.
+
+Przykładowe dane:
+
+* 10 liczb losowych z przedziału..
+* 1000 liczb losowych
+* 1,000,000 liczb losowych
+
+Program do generowania takich zbiorów:
+
+    :::c
+    int main () {
+      ...
+    }
+
+Szablon programu do mierzenia czasu wykonania funkcji:
+
+    :::c
+    int main () {
+      ...
+    }
+
+## Liczba największa i najmniejsza
+
+1\. Liczba największa
+
+2\. Liczba największa i najmniejsza
+
+Programy w wersji opisowej (użyć *rocco*).
+
+
+## Podpowiedzi: imiona kobiet
+
+1\. Działanie:
+
+    imiona ma
+    mariola
+    małgorzata
+    marysia
+    ...
+
+Jak to ma działać? 
+
+* utworzyć w pamięci strukturę danych umożliwiającą
+  takie wyszukiwanie
+* użyć jej do znalezienia imion o podanym prefiksie
+* …
