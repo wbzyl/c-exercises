@@ -29,10 +29,14 @@
 1. {%= link_to "Wskaźniki 1", "/wskazniki-1" %}
 1. {%= link_to "Struktury", "/struktury" %}
 1. {%= link_to "Trening czyni misztrza, miszcza, mistrza …", "/tcmmm" %}
+1. {%= link_to "Wyszukiwanie różnych rzeczy", "/wyszukiwanie" %}
 
 Zadania dodatkowe:
 
 * {%= link_to "Zadania extra", "/extra" %}
+
+
+<!-- zob. też http://edu.i-lo.tarnow.pl/inf/alg/001_search/index.php -->
 
 
 ### Rozwiązania
