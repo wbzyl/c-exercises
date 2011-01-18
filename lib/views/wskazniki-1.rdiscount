@@ -62,12 +62,12 @@ Domyślną wartością *n* jest 10, ale wartość tę można
 zmienić za pomocą opcjonalnego argumentu wywołania programu.
 Na przykład, każde z poleceń:
 
-    tail  -n 5
-    tail  --lines 5
+    xtail  -n 5
+    xtail  --lines 5
 
 spowoduje wypisanie 5 ostatnich wierszy.
 
-Program powinien działac sensownie niezależnie od tego,
+Program powinien działać sensownie niezależnie od tego,
 jak nierozsądne są dane wejściowe lub wartość *n*.
 Przygotować zestaw testów pokazujących
 „rozsądne zachowanie” programu.
