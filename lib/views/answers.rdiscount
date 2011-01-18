@@ -1,8 +1,13 @@
-#### {% title "Odpowiedzi" %}
+#### {% title "Odpowiedzi do niektórych zadań" %}
 
 # Odpowiedzi do niektórych zadań
 
-TODO
+<blockquote>
+ <p>
+   After three days without programming, life becomes meaningless.
+ </p>
+ <p class="author">[The Tao of Programming 2.1]</p>
+</blockquote>
 
 ## 2. Podstawowe typy danych
 
@@ -64,11 +69,11 @@ Zadanie 4.
       data_urodzenia = localtime(&czas_urodzenia);
       printf("Podaj swoja date urodzeniaodzenia w formacie rrrr-mm-dd: ");
       scanf("%d-%d-%d", &rok, &miesiac, &dzien);
-      
+
       data_urodzenia->tm_mday = dzien;
       data_urodzenia->tm_mon = miesiac - 1;
       data_urodzenia->tm_year = rok - 1900;
-      
+
       czas_urodzenia = mktime(data_urodzenia);
       time(&czas_teraz);
       printf("Do momentu uruchomienia tego programu przezyles:\n");
@@ -77,7 +82,7 @@ Zadanie 4.
       return 0;
     }
 
-<!-- 
+<!--
 
 // struct tm *data_urodzenia = malloc(sizeof(struct tm));
 
@@ -101,36 +106,36 @@ Zadanie 1.
       while (1) {
         switch (state) {
 
-        case 1: 
+        case 1:
           switch (c) {
           case ' ': putchar(' ');
             c=getchar();
             state=2;
             break;
           case '\t': putchar(' ');
-            c=getchar(); 
+            c=getchar();
             state=3;
             break;
-          case EOF: 
+          case EOF:
             exit(EXIT_SUCCESS);
-          default: putchar(c); 
-            c=getchar(); 
-            state=1; 
+          default: putchar(c);
+            c=getchar();
+            state=1;
             break;
           }
           break;
 
-        case 2: 
+        case 2:
           switch (c) {
           case ' ':
-            c=getchar(); 
+            c=getchar();
             state=2;
             break;
           case EOF:
             exit(EXIT_SUCCESS);
           default: putchar(c);
-            c=getchar(); 
-            state=1; 
+            c=getchar();
+            state=1;
             break;
           }
           break;
@@ -138,14 +143,14 @@ Zadanie 1.
         case 3:
           switch (c) {
           case '\t':
-            c=getchar(); 
+            c=getchar();
             state=3;
             break;
           case EOF:
             exit(EXIT_SUCCESS);
           default: putchar(c);
-            c=getchar(); 
-            state=1; 
+            c=getchar();
+            state=1;
             break;
           }
           break;
