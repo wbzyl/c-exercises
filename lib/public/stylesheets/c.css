@@ -130,8 +130,11 @@ blockquote img {
   display: block;
 }
 
+blockquote p {
+  margin-bottom: 0.25em;
+}
+
 blockquote p.author {
-  margin-top: -1em;
   padding-right: 44px;
   color: #800;
   font-style: italic;

@@ -2,6 +2,14 @@
 
 # Budowanie programów w języku C
 
+<blockquote>
+  {%= image_tag "/images/pike-rob.jpg", :alt => "[Rob Pike]" %}
+  <p>
+   <b>Rob Pike</b> claims to have never written a program 
+   that uses cursor addressing. 
+  </p>
+</blockquote>
+
 1\. Dokonać kompilacji (opcja kompilatora *-c*) *biblioteka.c* oraz
 *glowny.c* Jakie pliki powstaną po wykonaniu tych poleceń?
 
