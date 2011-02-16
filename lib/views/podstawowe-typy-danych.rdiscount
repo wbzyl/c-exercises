@@ -21,7 +21,7 @@ Przykładowa sesja z tym programem może wyglądać tak:
 
     Podaj kod ASCII: 65
     A
-    Podaj kod ASCII: 0x40
+    Podaj kod ASCII: 0x41
     A
     Podaj kod ASCII: 0101
     A
@@ -60,8 +60,8 @@ typu: *char*, *short*, *int*, *long*, opatrzonych
 kwalifikatorami *signed* oraz *unsigned*.
 
 Wynik powinien zawierać odpowiednie wartości ze standardowych
-plików nagłówkowych lub wartości obliczone bezpośrednio przez 
-program. 
+plików nagłówkowych lub wartości obliczone bezpośrednio przez
+program.
 
 Niektóre z wartości podanych w *limits.h* mozna wyliczyć. Na przykład,
 największą możliwą wartość typu *signed char* można wyliczyć tak:
@@ -70,7 +70,7 @@ największą możliwą wartość typu *signed char* można wyliczyć tak:
     (char)((unsigned char) ~0 >> 1))
 
 Najpierw operator dopełnienia jedynkowego `~` zamienia
-każdy bit wartości zero na jedynkę a jedynkę na zero; 
+każdy bit wartości zero na jedynkę a jedynkę na zero;
 następnie wynik jest przekształcany do typu *unsigned char*;
 tak otrzymaną wartość przesuwa się w prawo o jedną pozycję,
 by wyzerować bit znaku; na koniec przekształcamy
@@ -97,18 +97,18 @@ Fragment programu:
       return ((x>>(p-n+1)) & ~(~0<< n));
     }
 
-(a) Zrozumieć i przetestować działanie tej funkcji. 
+(a) Zrozumieć i przetestować działanie tej funkcji.
 
 Do testowania, należy napisać i wykorzystać dwie funkcje:
 
     :::c
-    unsigned czytajBity() 
+    unsigned czytajBity()
 
 czytającej z wejścia ciąg zer i jedynek będący zapisem liczby
 binarnej i zwracającej wartość tej liczby oraz
 
     :::c
-    void drukujBity(unsigned x) 
+    void drukujBity(unsigned x)
 
 wypisującej wszystkie bity liczby *x*.
 
@@ -129,16 +129,16 @@ Wskazówki:
       return w;
     }
 
-Przy pisaniu funkcji *drukujBity* można wykorzystać poniższe informacje 
-i drukować w pętli kolejne bity liczby używając 
+Przy pisaniu funkcji *drukujBity* można wykorzystać poniższe informacje
+i drukować w pętli kolejne bity liczby używając
 `putchar('0')` lub `putchar('1')`
 
-Liczba bitów w liczbie typu *unsigned*:  
+Liczba bitów w liczbie typu *unsigned*:
 
     :::c
     8*sizeof(unsigned)
 
-j-ty bit licząc od prawej, tj. bit najmniej znaczący ma numer 0: 
+j-ty bit licząc od prawej, tj. bit najmniej znaczący ma numer 0:
 
     :::c
     (x>>j)&01)
@@ -146,7 +146,7 @@ j-ty bit licząc od prawej, tj. bit najmniej znaczący ma numer 0:
 (b) Napisać i przetestować funkcję:
 
     :::c
-    unsigned setbit(unsigned x, int p, char b) 
+    unsigned setbit(unsigned x, int p, char b)
 
 która zwraca wartość taką jak *x*, ale zastępuje p-ty bit bitem 0 jeżeli
 b jest równe 0 lub bitem 1 jeżeli b jest różne od 0.
