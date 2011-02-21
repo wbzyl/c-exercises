@@ -5,8 +5,8 @@
 <blockquote>
   {%= image_tag "/images/pike-rob.jpg", :alt => "[Rob Pike]" %}
   <p>
-   <b>Rob Pike</b> claims to have never written a program 
-   that uses cursor addressing. 
+   <b>Rob Pike</b> claims to have never written a program
+   that uses cursor addressing.
   </p>
 </blockquote>
 
@@ -20,7 +20,7 @@
     }
 
     /* plik biblioteka.c */
-    
+
 2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
 wykonać eksperyment.
@@ -116,15 +116,15 @@ ujemnej, program powinien wypisać komunikat o błędzie oraz
 zakończyć działanie.
 
 7\. Napisz program, który wczyta liczbę rzeczywistą i
-wypisze jej odwrotność oraz jej pierwiastek kwadratowy. 
+wypisze jej odwrotność oraz jej pierwiastek kwadratowy.
 Program nie powinien obliczać odwrotności liczby 0
-oraz pierwiastka z liczby ujemnej. W takiej 
+oraz pierwiastka z liczby ujemnej. W takiej
 sytuacji zamiast obliczeń program powinien wypisać
 odpowiedni komunikat.
 
 8\. Napisz program, który prosi użytkownika
 o wprowadzenie trzech liczb z klawiatury, a następnie
-wypisze sumę, iloczyn, najmniejszą i największą z 
+wypisze sumę, iloczyn, najmniejszą i największą z
 wprowadzonych liczb.
 
 Dialog na terminalu powinien wyglądać tak:
@@ -136,11 +136,11 @@ Dialog na terminalu powinien wyglądać tak:
     Największa liczba to: 3
 
 9\. Napisać program, który wypisze tabelkę wartości pierwiastka
-kwadratowego. Program ma pytać o 
+kwadratowego. Program ma pytać o
 
 * wartość poczatkową
 * wartość końcową
-* krok dla argumentu 
+* krok dla argumentu
 
 i wypisywać tabelką w podanym zakresie.
 Liczby powinny być wypisywane z dokładnością czterech miejsc po
@@ -150,5 +150,5 @@ wartość poczatkową, 2 jako końcową i 0.5 jako krok,
 powinismy dostać:
 
     1.0000  1.0000
-    1.5000  0.2247
+    1.5000  1.2247
     2.0000  1.4142
