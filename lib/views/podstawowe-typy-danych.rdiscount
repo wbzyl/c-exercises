@@ -2,6 +2,15 @@
 
 # Podstawowe typy danych
 
+<blockquote>
+<p>
+&lt;lwrm> „nieee, przeciez nikt nie ma tak długiego nazwiska, damy <b>char[25]</b>...”<br>
+&lt;lwrm> i przyszła klientka z podwójnym nazwiskiem<br>
+&lt;lwrm> od tej pory wołaliśmy na nią „segmentation fault”
+</p>
+<p class="author"><a href="http://bash.org.pl/667850/">[bash#667850]</a></p>
+</blockquote>
+
 1\. Zbadaj jak zachowuje się Sigma w sytuacji przepełnienia
 zmiennej całkowitej, przepełnienia zmiennej zmiennoprzecinkowej
 i niedomiaru zmiennej zmiennoprzecinkowej.
