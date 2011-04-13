@@ -11,6 +11,42 @@
   </p>
 </blockquote>
 
+## Ważne informacje!
+
+**[2011.04.11]** Trzy uwagi do zadania domowego:
+
+(1) W repozytorium *sgb* umieściłem plik z 16650 pięcioliterowymi słowami:
+
+    git clone git://sigma.ug.edu.pl/~wbzyl/sgb.git
+
+(2) Należy skopiować plik *gb_words.w* na *gb_plwords.w*.
+W skopiowanym pliku należy zmienić liczbę pierwszą:
+
+    @d hash_prime 19391 /* a prime number larger \
+            than the total number of words */
+
+W trakcie linkowania programu, należy użyć *gb_plwords.o*.
+
+(3) Suma kontrolna dla pliku *words.dat* jest wyliczana
+i sprawdzana w pliku *gb_io.w*.
+
+<!--
+
+Dopisujemy pliki *gb_plwords.w*, *plladders.w*
+(kopie oryginałów, których nie ruszamy) do *Makefile*.
+
+Zmieniamy nazwy funkcjom publicznym:
+
+    words -> plwords
+    find_word -> find_plword
+
+W implementacji *plwords* podmieniamy plik *words.dat*
+na *plwords.dat*. Teraz powinno działać:
+
+    make tests
+    make plladders
+
+-->
 
 ## Laboratoria
 
@@ -49,7 +85,7 @@ Zadania dodatkowe:
 1. [FreeBSD Man Pages] [freebsd]
 1. [Online IDE & Debugging Tool] [ideone]
 1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
-1. Kernighan Brian W., Ritchie Dennis M. 
+1. Kernighan Brian W., Ritchie Dennis M.
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
 
@@ -65,7 +101,7 @@ Zadania dodatkowe:
 
 ## Różności
 
-1. Krzysztof Diks. 
+1. Krzysztof Diks.
    [Wstęp do programowania w języku C](http://mediawiki.ilab.pl/index.php/Wst%C4%99p_do_programowania_w_j%C4%99zyku_C)
 1. David Turnbull.
    [How to Get the Most out of Programming Books](http://idebuggedababoon.com/how-to-get-the-most-out-of-programming-books/).
