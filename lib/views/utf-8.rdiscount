@@ -1,6 +1,6 @@
 #### {% title "Laboratorium 3" %}
 
-# Zmienne, stałe i ich zasięg, literały
+# UTF-8
 
 1\. Napisz program, który pyta o Twoje imię, a następnie o nazwisko,
 po czym, wypisuje je w układzie: nazwisko, imię.
