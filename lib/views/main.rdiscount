@@ -13,21 +13,15 @@
 
 ## Ważne informacje!
 
-**[2011.04.11]** Trzy uwagi do zadania domowego:
+**[2011.04.11]** Dwie uwagi do zadania domowego:
 
 (1) W repozytorium *sgb* umieściłem plik z 16650 pięcioliterowymi słowami:
 
     git clone git://sigma.ug.edu.pl/~wbzyl/sgb.git
 
-(2) Należy skopiować plik *gb_words.w* na *gb_plwords.w*.
-W skopiowanym pliku należy zmienić liczbę pierwszą:
-
-    @d hash_prime 19391 /* a prime number larger \
-            than the total number of words */
-
 W trakcie linkowania programu, należy użyć *gb_plwords.o*.
 
-(3) Suma kontrolna dla pliku *words.dat* jest wyliczana
+(3) Suma kontrolna dla pliku *plwords.dat* jest wyliczana
 i sprawdzana w pliku *gb_io.w*.
 
 <!--
@@ -52,7 +46,7 @@ na *plwords.dat*. Teraz powinno działać:
 
 1. {%= link_to "Budowanie programów w języku C", "/budowanie-programow" %}
 1. {%= link_to "Podstawowe typy danych", "/podstawowe-typy-danych" %}
-1. {%= link_to "Zmienne, stałe i ich zasięg, literały", "/zmienne-stale-zasieg" %}
+1. {%= link_to "UTF-8", "/utf-8" %}
 1. {%= link_to "Elementarz 1", "/elementarz-1" %}
 1. {%= link_to "Pętle", "/petle" %}
 1. {%= link_to "Automaty skończone", "/automaty" %}
