@@ -93,7 +93,7 @@ jednocześnie funkcji *char* i *wchar*, na przykład
 
 Poniższe pliki zawierają słowa pięcioliterowe, po jednym w wierszu:
 
-* {%= link_to "words.dat", "/doc/words.txtln -s pl" %} - 5757 słów angielskich
+* {%= link_to "words.dat", "/doc/words.txt" %} - 5757 słów angielskich
 * {%= link_to "plwords.dat", "/doc/plwords.txt" %} – 5308 słów polskich w kodowaniu UTF-8
 
 Ze słów możemy utworzyć graf nieskierowany w którym wierzchołkami są
