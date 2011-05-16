@@ -2,6 +2,14 @@
 
 # Trening czyni misztrza, miszcza, mistrza …
 
+<blockquote>
+ <p>{%= image_tag "/images/matt-might-marousel.jpg", :alt => "[Matthew Might]" %}</p>
+ <p>
+  <a href="http://matt.might.net/articles/nine-kinds-of-students/">Classroom Fortress:<br>
+    The Nine Kinds of Students</a>
+ </p>
+</blockquote>
+
 <p><b>Zadanie 1.</b>
 Napisać program <kbd>morse.c</kbd> kodujący
 podany na wejściu tekst na kod Morsa
@@ -60,9 +68,9 @@ Pusty wiersz
 00:00:20,000 --> 00:00:26,500
 Wlazł kotek na płotek i mruga,
 ładna to piosenka niedługa.
- 
-2 
-00:00:28,000 --> 00:00:33,500 
+
+2
+00:00:28,000 --> 00:00:33,500
 Niedługa, niekrótka, lecz w sam raz,
 Zaśpiewaj koteczku jeszcze raz.
 
@@ -89,9 +97,9 @@ wyjście napisy z przesuniętym czasem:
 00:00:22,500 --> 00:00:29,000
 Wlazł kotek na płotek i mruga,
 ładna to piosenka niedługa.
- 
-2 
-00:00:30,500 --> 00:00:36,000 
+
+2
+00:00:30,500 --> 00:00:36,000
 Niedługa, niekrótka, lecz w sam raz,
 Zaśpiewaj koteczku jeszcze raz.
 

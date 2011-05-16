@@ -64,14 +64,6 @@ na *plwords.dat*. Teraz powinno działać:
 
 <!-- zob. też http://edu.i-lo.tarnow.pl/inf/alg/001_search/index.php -->
 
-<blockquote>
- <p>{%= image_tag "/images/matt-might-marousel.jpg", :alt => "[Matthew Might]" %}</p>
- <p>
-  <a href="http://matt.might.net/articles/nine-kinds-of-students/">Classroom Fortress:<br>
-    The Nine Kinds of Students</a>
- </p>
-</blockquote>
-
 ### Zadania ekstra & rozwiązania
 
 * {%= link_to "Zadania extra", "/extra" %}
