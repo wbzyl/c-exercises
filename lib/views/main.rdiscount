@@ -61,17 +61,21 @@ na *plwords.dat*. Teraz powinno działać:
 1. {%= link_to "Trening czyni misztrza, miszcza, mistrza …", "/tcmmm" %}
 1. {%= link_to "Wyszukiwanie różnych rzeczy", "/wyszukiwanie" %}
 
-Zadania dodatkowe:
-
-* {%= link_to "Zadania extra", "/extra" %}
-
 
 <!-- zob. też http://edu.i-lo.tarnow.pl/inf/alg/001_search/index.php -->
 
+<blockquote>
+ <p>{%= image_tag "/images/matt-might-marousel.jpg", :alt => "[Matthew Might]" %}</p>
+ <p>
+  <a href="http://matt.might.net/articles/nine-kinds-of-students/">Classroom Fortress:<br>
+    The Nine Kinds of Students</a>
+ </p>
+</blockquote>
 
-### Rozwiązania
+### Zadania ekstra & rozwiązania
 
-*  {%= link_to "Odpowiedzi do niektórych zadań", "/answers" %}
+* {%= link_to "Zadania extra", "/extra" %}
+* {%= link_to "Odpowiedzi do niektórych zadań", "/answers" %}
 
 
 ## Literatura
