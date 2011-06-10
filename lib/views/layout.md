@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/uv.css", "/stylesheets/c.css" %>
+    <%= stylesheet_link_tag "/stylesheets/print.css", :media => "print" %>
+    <!--[if IE]>
+      <%= stylesheet_link_tag "css/blueprint/ie.css" %>
+    <![endif]-->
+
+    <title><%= "C" + page_title %></title>
+  </head>
+  <body>
+    <div class="span-21" id="header">
+      <div id="logo" class="push-1 span-13">
+        <%= link_to "Zadania z JP", "/" %>
+      </div>
+      <div class="span-7 last">
+        <div class="append-1" id="links">
+          <a href="http://inf.ug.edu.pl/~kuba/jp/">wykład</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="span-21 container"><!-- showgrid -->
+      <div class="push-1 span-12" id="content">
+
+        <%= yield %>
+
+      </div>
+      <div class="span-8 last">
+      </div>
+    </div>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20399167-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+  </body>
+</html>
