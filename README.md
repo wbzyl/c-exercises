@@ -5,7 +5,7 @@ Gem zawierający zadania do wykładu „Języki Programowania”.
 Zobacz też:
 
 * [Clarifying the Roles of the .gemspec and Gemfile](http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/) (TL;DR – Too long; didn't read)
-
+* [Using >= Considered Harmful (or, What’s Wrong With >=)](http://yehudakatz.com/2010/08/21/using-considered-harmful-or-whats-wrong-with/)
 
 ## Instalacja
 
