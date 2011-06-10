@@ -6,45 +6,40 @@
   Evolution of a Programmer</a>
 </blockquote>
 
-1\. uzupełnij poniższy kod, tak aby powstał działajęcy program:
+1\. Uzupełnij kod funkcji *podnies_do_kwadratu* oraz *wczytaj_liczbe*
+tak aby powstał działający program:
 
     :::c
-    /* oblicz kwadrat liczby n */
-    void kwadrat (int *n) {
-      ...
+    void podnies_do_kwadratu(int *n) {
     }
     void wczytaj_liczbe(int *n) {
       printf("Wpisz liczbę naturalną: ");
-      ...
-    } 
-    int main()
-    {
-      int liczba;
-      ...
-      wczytaj_liczbe(...);
-      kwadrat(...);
-      printf(...);  /* wypisz wczytaną liczbę oraz jej kwadrat */
-      return 0;
+    }
+    int main() {
+       int liczba;
+       wczytaj_liczbe(&liczba);
+       podnies_do_kwadratu(&liczba);
+       printf("Kwadrtat wczytanej liczby to %d\n", liczba);
+       return 0;
     }
 
 
-2\. Napisz program, który korzysta z dwóch
-tablic. Jedna to tablica 10 różnych liczb całkowitych 
-z zakresu od 1 do 10, druga to tablica wskaźników na liczby całkowite.
+2\. Napisz program, który korzysta z dwóch tablic. Jedna to tablica
+4 liczb całkowitych, druga to tablica wskaźników na liczby całkowite.
 
 Przeprowadź proste przeszukiwanie tablicy liczb w celu odszukania
-najmniejszej i zapamiętaj jej wskaźnik w tablicy wskaźników.
-Potem poszukaj kolejnej i ponownie zapamiętaj jej wskaźnik na
-następnym miejscu w tablicy wskaźników. W ten sposób utwórz całą
+najmniejszej i zapamiętaj jej wskaźnik w tablicy wskaźników pod indeksem 0.
+Potem poszukaj kolejnej i ponownie zapamiętaj jej wskaźnik na
+następnym miejscu w tablicy wskaźników. W ten sposób utwórz całą
 tablicę wskaźników. Zwróć uwagę na to, że takim sposobem możesz
 posortować nieduże tablice liczb całkowitych bez konieczności
-zmiany w nich kolejności danych. Wypisz na ekran zawartość obu
+zmiany w nich kolejności danych. Wypisz na ekran zawartość obu
 tablic.
 
-**Wskazówka:** skorzystaj z programu *cdecl*;
+**Wskazówka:** Skorzystaj z programu *cdecl*;
 uruchom program *cdecl* i wpisz:
 
-    declare a as array 10 of pointer to int
+    declare a as array 4 of pointer to int
 
 Przeczytaj stronę manuala programu *cdecl*.
 
@@ -53,7 +48,7 @@ dziesięcioelementową wskaźników do tablic pięcioelementowych
 wskaźników na liczby rzeczywiste. Następnie wczytaj do tej tablicy
 kilka liczb. Wypisz na wyjście te liczby.
 
-**Wskazówka:** skorzystaj z programu *cdecl*.
+**Wskazówka:** Skorzystaj z programu *cdecl*.
 
 4\. Napisz program *xtail* wypisujący
 *n* ostatnich wierszy tekstu podanego na wejściu.
@@ -72,10 +67,10 @@ jak nierozsądne są dane wejściowe lub wartość *n*.
 Przygotować zestaw testów pokazujących
 „rozsądne zachowanie” programu.
 
-Uwaga 1: wiersze powinny być gromadzone w tablicy
+Uwaga 1: Wiersze powinny być gromadzone w tablicy
 wskaźników do char.
 
-Uwaga 2: do programu
+Uwaga 2: Do programu
 dodać dodatkowe opcje: `author', `help' i `version';
 do obsługi opcji wykorzystać funkcję
 *getopt_long* albo skorzystać z biblioteki *popt*
