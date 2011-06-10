@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 6" %}
-
-# Struktury
+#### {% title "Struktury"" %}
 
 W rozdziale 6.2 podręcznika K&R zaprezentowano kilka funkcji
 manipulujących punktami i prostokątami.
@@ -38,7 +36,7 @@ wewnątrz prostokąta:
     :::c
     /* ptinrect: zwróć 1 jeśli p należy do r, 0 jeśli nie należy */
     int ptinrect(struct point p, struct rect r) {
-      return p.x >= r.ll.x && p.x < r.ur.x 
+      return p.x >= r.ll.x && p.x < r.ur.x
           && p.y >= r.ll.y && p.y < r.ur.y;
     }
 
@@ -52,7 +50,7 @@ sprawdzający poprawność implementacji.
 zawarty wewnątrz prostokąta:
 
     :::c
-    /* rectinrect: zwróć 1 jeśli r1 jest zawarty w r2, 0 
+    /* rectinrect: zwróć 1 jeśli r1 jest zawarty w r2, 0
        — w przeciwnym przypadku */
     int rectinrect(struct rect r1, struct rect r);
 
@@ -60,7 +58,7 @@ zawarty wewnątrz prostokąta:
 są rozłączne:
 
     :::c
-    /* disjointrect: zwróć 1 jeśli r1 jest rozłączny z r2, 
+    /* disjointrect: zwróć 1 jeśli r1 jest rozłączny z r2,
        0 — w przeciwnym przypadku */
     int disjointrect(struct rect r1, struct rect r2);
 
@@ -68,11 +66,11 @@ są rozłączne:
 punkt należy do jednego z prostokątów przekazanych w argumentach:
 
     :::c
-    /* ptinrectangles: zwróć 1 jeśli p należy do jednego z prostokątów r1..., 
+    /* ptinrectangles: zwróć 1 jeśli p należy do jednego z prostokątów r1...,
        0 — w przeciwnym przypadku */
     int ptinrectangles(struct point p, struct rect r1, ...);
 
-Wskazówka: skorzystać z przykładu ze strony manuala do 
+Wskazówka: skorzystać z przykładu ze strony manuala do
 [stdarg.h](http://www.freebsd.org/cgi/man.cgi?query=stdarg&apropos=0&sektion=0&manpath=FreeBSD+8.1-RELEASE&format=html) —
 listy zmiennych argumentów.
 
@@ -134,7 +132,7 @@ Szablon programu testującego:
     }
 
 Poniższe zadania pochodzą z podręcznika K&R, rozdział 6.5.
-Na początek polecam lekturę dokumentacji+kodu programu 
+Na początek polecam lekturę dokumentacji+kodu programu
 {%= link_to "Zliczanie słów", "/doc/fw.pdf" %}.
 
 W poniższych programach ogranicz się do tekstów

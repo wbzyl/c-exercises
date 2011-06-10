@@ -1,7 +1,5 @@
 #### {% title "Pętle" %}
 
-# Pętle
-
 0\. Jakie wartości wyświetli poniższy program:
 
     :::c
@@ -68,8 +66,8 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
     ****    *          *    ****
 
 <!--
-   **Zadanie dodatkowe.** 
-   Połącz swój kod składający się z czterech oddzielnych bloków 
+   **Zadanie dodatkowe.**
+   Połącz swój kod składający się z czterech oddzielnych bloków
    (z których każdy rysuje jeden wzór) w jeden program wyświetlający
    cztery wzory **obok** siebie sprytnie używając zagnieżdżonych
    pętli *for*.

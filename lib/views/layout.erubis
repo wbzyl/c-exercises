@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  {%= stylesheet_link_tag "/stylesheets/screen.css", "/stylesheets/coderay.css", "/stylesheets/c.css" %}
+  <!--[if IE]>
+  {%= stylesheet_link_tag "/stylesheets/ie.css" %}
+  <![endif]-->
+
+  <title>{%= filler_for?(:title) ? "WB@C//" + output_filler_for(:title) : "WB@C" %}</title>
+</head>
+
+<body>
+
+  <div class="span-21" id="header">
+    <div id="logo" class="push-1 span-13">
+      {%= link_to "Zadania z JP", "/" %}
+    </div>
+    <div class="span-7 last">
+      <div class="append-1" id="links">
+        <a href="http://inf.ug.edu.pl/~kuba/jp/">wykład</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="span-21 container"><!-- showgrid -->
+    <div class="push-1 span-12" id="content">
+      {% if filler_for?(:title) && show_title? %}
+      <h1>{%= output_filler_for(:title) %}</h1>
+      {% end %}
+      {%= yield %}
+    </div>
+    <div class="span-8 last">
+    </div>
+  </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/c/javascripts/libs/jquery-1.6.1.min.js"%3E%3C/script%3E'))</script>
+
+<script>
+  var _gaq=[['_setAccount','UA-20399167-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script></body>
+</html>

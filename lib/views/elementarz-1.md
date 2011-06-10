@@ -1,7 +1,5 @@
 #### {% title "Elementarz 1" %}
 
-# Elementarz 1
-
 1\. Napisz program obliczający wartość każdego z poniższych wyrażeń:
 
 <ol class="lower-alpha">

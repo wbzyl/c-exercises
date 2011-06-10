@@ -1,6 +1,4 @@
-#### {% title "Rekurencja" %}
-
-# Wskaźniki
+#### {% title "Wskaźniki 1" %}
 
 <blockquote><a href="http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html">The
   Evolution of a Programmer</a>

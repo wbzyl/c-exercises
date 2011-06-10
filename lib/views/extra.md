@@ -1,11 +1,11 @@
-#### {% title "Zadania Extra" %}
+#### {% title "Zadania Extra", false %}
 
 # Rocco
 
 <blockquote>
 {%= image_tag "/images/edsger_wybe_dijkstra.jpg", :alt => "[Edsger Dijkstra]" %}
 <p>
-  If debugging is the process of removing software bugs, 
+  If debugging is the process of removing software bugs,
   then programming must be the process of putting them in.
 </p>
 <p class="author">— Edsger Dijkstra</p>
@@ -35,14 +35,14 @@ Program ten po wpisaniu do pliku *hello.c* zamieniamy na
 
     rocco -lc -c// hello.c
 
-**Lektura obowiązkowa** – 
+**Lektura obowiązkowa** –
 [Library (computing)](http://en.wikipedia.org/wiki/Library_%28computing%29),
 [Anatomy of Linux dynamic libraries](http://www.ibm.com/developerworks/linux/library/l-dynamic-libraries/).
 
 
 # Zadania extra-dodatkowe
 
-**Czas**. 
+**Czas**.
 Napisz zestaw funkcji do obróbki „czasu” zawierających informację o
 godzinie, minucie, sekundzie w obrębie jednej doby. Informacje te
 zapamiętaj w strukturze:
@@ -70,7 +70,7 @@ Korzystając z napisanych funkcji, napisz program:
 * Wojtek Przebieracz
 
 Biblioteka funkcji do obróbki tabel zawierających zarówno tekst jak
-i liczby: 
+i liczby:
 [tabele.h](http://sigma.ug.edu.pl/~mpikora/projekt/tabele.h)
 
 Programy:
@@ -106,7 +106,7 @@ Programy:
 
 ## Xstdio
 
-* Maciej Jażdżewski 
+* Maciej Jażdżewski
 * Kamil Karwowski
 
 Biblioteka funkcji do wczytywania, zapisywania i edycji danych z pliku
@@ -118,7 +118,7 @@ Programy:
 * Baza danych warsztatu samochodowego umożliwiająca dodawanie,
   usuwanie oraz wyświetlanie rekordów. Baza będzie zawierać informacje
   o klientach, ich pojazdach oraz uwagi pracowników zapisane w
-  odrębnym pliku.  
+  odrębnym pliku.
 * Program będzie zapisywał datę uruchomienia
   programu w odrębnym pliku, a następnie obliczał czas od ostatniego
   uruchomienia.
@@ -129,14 +129,14 @@ Programy:
 * Michał Piaskowski
 * Adam Łukaszewicz
 
-Biblioteka funkcji do szyfrowania i rozszyfrowywania 
+Biblioteka funkcji do szyfrowania i rozszyfrowywania
 przy pomocą Szachownicy Polibiusza
 oraz zamiany tekstu na kod ASCII i na odwrót:
 [szyfr.h](http://sigma.ug.edu.pl/~alukaszewicz2/projekt/szyfr.h)
 
 Programy:
 
-* Program do szyfrowania i rozszyfrowywania przy pomocy Szachownicy Polibiusza  
+* Program do szyfrowania i rozszyfrowywania przy pomocy Szachownicy Polibiusza
 * Program do zamiany tekstu na kod ASCII i na odwróŧ.
 
 
@@ -152,9 +152,9 @@ funkcji liniowej:
 
 Programy:
 
-* rysowanie wykresu: program będzie rysował na terminalu 
+* rysowanie wykresu: program będzie rysował na terminalu
 wykres funkcji liniowej o zadanych, całkowitych współczynnikach
-* wypisanie własności: program wypisuje własności funkcji 
+* wypisanie własności: program wypisuje własności funkcji
 liniowej podanej przez użytkownika, znajduje punkty przecięcia
 wykresów
 

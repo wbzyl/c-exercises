@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 4" %}
-
-# Operatory
+#### {% title "Operatory" %}
 
 1\. Użyj pętli *while* do przeliczania czasu w minutach
 na godziny i minuty. Utwórz stałą symboliczną dla liczby
@@ -48,7 +46,7 @@ Program kompiluj tak:
 
     cc -Wall main.c scisnij.c -o zadanie1
 
-Uwaga: kod w pliku *main.c* nie jet kompletny. 
+Uwaga: kod w pliku *main.c* nie jet kompletny.
 Należy go uzupełnić tak aby kompilacja przebiegła bez błędów.
 
 Wskazówka: funkcja *usun* robi **prawie** to co ma robić funkcja

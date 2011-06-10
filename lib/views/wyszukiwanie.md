@@ -1,6 +1,6 @@
-#### {% title "Laboratorium 16" %}
+#### {% title "Wyszukiwanie" %}
 
-# TODO: Wyszukiwanie
+**TODO** Dokończyć, dodać wyszukiwanie.
 
 Cel: który program będzie najszybszy.
 
@@ -94,7 +94,7 @@ Programy w wersji opisowej (użyć *rocco*).
     marysia
     ...
 
-Jak to ma działać? 
+Jak to ma działać?
 
 * utworzyć w pamięci strukturę danych umożliwiającą
   takie wyszukiwanie

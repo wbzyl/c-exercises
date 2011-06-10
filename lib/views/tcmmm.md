@@ -1,7 +1,5 @@
 #### {% title "Trening czyni misztrza, miszcza, mistrza …" %}
 
-# Trening czyni misztrza, miszcza, mistrza …
-
 <blockquote>
  <p>{%= image_tag "/images/matt-might-marousel.jpg", :alt => "[Matthew Might]" %}</p>
  <p>

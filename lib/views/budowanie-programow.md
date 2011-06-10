@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 1" %}
-
-# Budowanie programów w języku C
+#### {% title "Budowanie programów w języku C" %}
 
 <blockquote>
   {%= image_tag "/images/pike-rob.jpg", :alt => "[Rob Pike]" %}

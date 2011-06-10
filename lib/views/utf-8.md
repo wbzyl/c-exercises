@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 3" %}
-
-# UTF-8 – *wchar.h*, *wctype.h*
+#### {% title "ASCII v. UTF-8" %}
 
 Poniższe programy kompilujemy tak:
 

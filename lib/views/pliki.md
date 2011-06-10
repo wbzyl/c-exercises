@@ -1,8 +1,6 @@
-#### {% title "Laboratorium 5" %}
+#### {% title "Pliki" %}
 
-# Pliki
-
-1\. Napisz program, zapisujący do pliku o nazwie *dane.dat* 
+1\. Napisz program, zapisujący do pliku o nazwie *dane.dat*
 dwie kolumny liczb:
 
     0.0   0.0   0.24
@@ -54,16 +52,16 @@ Na koniec, obejrzyj wykres uśredniania w gnuplocie.
     ulysses.txt   =>  http://www.gutenberg.org/files/4300/4300.txt
     da-vinci.txt  =>  http://www.gutenberg.org/dirs/etext04/7ldv110.txt
 
-Wyniki zapisać do pliku w postaci: 
+Wyniki zapisać do pliku w postaci:
 
     numer_znaku liczba_wystąpień
 
-Na koniec narysować wykres w gnuplocie. 
+Na koniec narysować wykres w gnuplocie.
 
-Ciekawe będzie też porównanie liczebności znaków 
-w tekstach angielskich i w programach w języku C, Rubym itd. 
+Ciekawe będzie też porównanie liczebności znaków
+w tekstach angielskich i w programach w języku C, Rubym itd.
 
-Aby wyniki można było porównywać, należy je oczywiście znormalizować! 
+Aby wyniki można było porównywać, należy je oczywiście znormalizować!
 Oznacza to, że liczbę wystąpień każdego ze znaków należy
 podzielić przez liczbę wszystkich zliczonych znaków.
 
@@ -72,12 +70,12 @@ Do pobrania plików wykorzystaj program *curl* lub *wget*:
     wget http://www.gutenberg.org/files/4300/4300.txt
 
 5\. Napisz program, który wczytuje plik tekstowy w formacie:
-pierwszy wiersz aktualny format danych w pliku, 
+pierwszy wiersz aktualny format danych w pliku,
 drugi wiersz nowy format danych, na przykład:
 
     %10d %12.4f
     %d %f
-    
+
 W pozostałych wierszach znajdują się dane w podanym formacie,
 na przykład
 
