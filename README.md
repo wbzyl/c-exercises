@@ -32,3 +32,58 @@ Na przykład:
 Po uruchomieniu aplikacja jest dostępna z URL:
 
     http://localhost:8098/
+
+
+## CodeRay
+
+Lista języków:
+
+    cd coderay/coderay/scanners
+    egrep register_for *
+
+    egrep register_for *
+    clojure.rb:      register_for :clojure
+    cpp.rb:    register_for :cpp
+    c.rb:    register_for :c
+    css.rb:    register_for :css
+    debug.rb:    register_for :debug
+    delphi.rb:    register_for :delphi
+    diff.rb:    register_for :diff
+    groovy.rb:    register_for :groovy
+    html.rb:    register_for :html
+    java.rb:    register_for :java
+    java_script.rb:    register_for :java_script
+    json.rb:    register_for :json
+    nitro_xhtml.rb:    register_for :nitro_xhtml
+    php.rb:    register_for :php
+    python.rb:    register_for :python
+    raydebug.rb:    register_for :raydebug
+    rhtml.rb:    register_for :rhtml
+    ruby.rb:    register_for :ruby
+    scheme.rb:      register_for :scheme
+    sql.rb:    register_for :sql
+    text.rb:      register_for :text
+    xml.rb:    register_for :xml
+    yaml.rb:    register_for :yaml
+
+Aliasy z pliku *_map.rb*:
+
+    map \
+      :cplusplus => :cpp,
+      :'c++' => :cpp,
+      :ecmascript => :java_script,
+      :ecma_script => :java_script,
+      :irb => :ruby,
+      :javascript => :java_script,
+      :js => :java_script,
+      :nitro => :nitro_xhtml,
+      :pascal => :delphi,
+      :patch => :diff,
+      :plain => :text,
+      :plaintext => :text,
+      :xhtml => :html,
+      :yml => :yaml
+
+    default :text
+
+
