@@ -7,6 +7,19 @@ Zobacz też:
 * [Clarifying the Roles of the .gemspec and Gemfile](http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/) (TL;DR – Too long; didn't read)
 * [Using >= Considered Harmful (or, What’s Wrong With >=)](http://yehudakatz.com/2010/08/21/using-considered-harmful-or-whats-wrong-with/)
 
+Quotes from the above.
+
+Developing gem:
+„Do not check your *Gemfile.lock* into version control since it enforces
+precision that does not exist in the *gem* command, which is used to
+install gems in practice.”
+
+Developing app:
+„Check in your *Gemfile.lock*, since you will use the *bundler* tool
+across all machines, and the precision enforced by *bundler* is
+extremely desirable for applications.”
+
+
 ## Instalacja
 
 Wykonać polecenie:
