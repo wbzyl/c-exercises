@@ -87,6 +87,8 @@ na *plwords.dat*. Teraz powinno działać:
 1. [A C language family frontend for LLVM](http://clang.llvm.org/index.html) —
    fast compiles and low memory use, **expressive diagnostics**,
    GCC compatibility
+1. [Introduction to programming and computer science](http://www.youtube.com/view_play_list?p=36E7A2B75028A3D6),
+   [The Khan Academy](http://www.youtube.com/user/khanacademy)
 1. Neal H. Walfield. [Lambdas in C](http://walfield.org/blog/2010/08/25/lambdas-in-c.html)
 
 
