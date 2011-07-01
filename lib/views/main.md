@@ -87,6 +87,7 @@ na *plwords.dat*. Teraz powinno działać:
 1. [A C language family frontend for LLVM](http://clang.llvm.org/index.html) —
    fast compiles and low memory use, **expressive diagnostics**,
    GCC compatibility
+1. Neal H. Walfield. [Lambdas in C](http://walfield.org/blog/2010/08/25/lambdas-in-c.html)
 
 
 ## Różności
