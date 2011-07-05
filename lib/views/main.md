@@ -78,6 +78,8 @@ na *plwords.dat*. Teraz powinno działać:
 1. Kernighan Brian W., Ritchie Dennis M.
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
+1. [Learn C The Hard Way](http://learncodethehardway.org/) –
+   a clear & direct guide to modern C programming
 
 
 ## Biblioteki C, kompilatory...
