@@ -8,3 +8,5 @@ pkg
 lib/tmp/**/*
 Gemfile.lock
 vendor/cache
+lib/tmp/always_restart.txt
+
