@@ -100,6 +100,8 @@ na *plwords.dat*. Teraz powinno działać:
    [Wstęp do programowania w języku C](http://mediawiki.ilab.pl/index.php/Wst%C4%99p_do_programowania_w_j%C4%99zyku_C)
 1. David Turnbull.
    [How to Get the Most out of Programming Books](http://idebuggedababoon.com/how-to-get-the-most-out-of-programming-books/).
+1. Joe Armstrong.
+   [Ways to get started](http://erlang.org/pipermail/erlang-questions/2011-July/059966.html)
 
 
 #### Linki
