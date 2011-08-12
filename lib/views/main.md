@@ -96,6 +96,7 @@ na *plwords.dat*. Teraz powinno działać:
 
 ## Różności
 
+1. [6.087 Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/) – MIT Open Courseware
 1. Krzysztof Diks.
    [Wstęp do programowania w języku C](http://mediawiki.ilab.pl/index.php/Wst%C4%99p_do_programowania_w_j%C4%99zyku_C)
 1. David Turnbull.
