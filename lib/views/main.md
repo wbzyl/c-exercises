@@ -72,6 +72,15 @@ na *plwords.dat*. Teraz powinno działać:
 
 ## Literatura
 
+<blockquote>
+  <p>When human beings acquired language, we learned not just how to
+  listen but how to speak. When we gained literacy, we learned not
+  just how to read but how to write. And as we move into an
+  increasingly digital reality, we must learn not just how to use
+  programs but how to <b>make</b> them.</p>
+  <p class="author">— Douglas Rushkoff</p>
+</blockquote>
+
 1. [FreeBSD Man Pages] [freebsd]
 1. [Online IDE & Debugging Tool] [ideone]
 1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)

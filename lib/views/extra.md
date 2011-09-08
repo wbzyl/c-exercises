@@ -42,6 +42,15 @@ Program ten po wpisaniu do pliku *hello.c* zamieniamy na
 
 # Zadania extra-dodatkowe
 
+<blockquote>
+<p><b>Kroić słonia</b> Należy nauczyć się dzielić wielkie zadania na małe
+  kroczki i odczuwać przyjemność z małych zwycięstw na krótkich odcinkach,
+  bez czekania na wielką nagrodę.
+</p>
+<p class="author">[z metody pracy z perfekcjonistami]</p>
+</blockquote>
+
+
 **Czas**.
 Napisz zestaw funkcji do obróbki „czasu” zawierających informację o
 godzinie, minucie, sekundzie w obrębie jednej doby. Informacje te
