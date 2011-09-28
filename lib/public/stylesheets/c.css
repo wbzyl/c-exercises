@@ -114,7 +114,6 @@ h1 {
 }
 
 blockquote {
-  font: normal 14/1.5 "DejaVu Sans", sans-serif;
   width: 297px;
   margin-top: 6px;
   margin-left: 528px;
@@ -123,6 +122,11 @@ blockquote {
   background: #99ff99;
   -moz-border-radius: 4px;
   color: #800;
+}
+
+blockquote p {
+  font-size: 80%;
+  line-height: 1.6;
 }
 
 blockquote img {
