@@ -116,6 +116,9 @@ na *plwords.dat*. Teraz powinno działać:
    [How to Get the Most out of Programming Books](http://idebuggedababoon.com/how-to-get-the-most-out-of-programming-books/).
 1. Joe Armstrong.
    [Ways to get started](http://erlang.org/pipermail/erlang-questions/2011-July/059966.html)
+1. Roedy Green.
+   [How To Write Unmaintainable Code](http://thc.org/root/phun/unmaintain.html) –
+   ensure a job for life ;-)
 
 
 #### Linki
