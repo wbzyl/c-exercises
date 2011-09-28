@@ -11,41 +11,6 @@
   </p>
 </blockquote>
 
-<!--
-
-## Ważne informacje!
-
-**[2011.04.11]** Dwie uwagi do zadania domowego:
-
-(1) W repozytorium *sgb* umieściłem plik z 16650 pięcioliterowymi słowami:
-
-    git clone git://sigma.ug.edu.pl/~wbzyl/sgb.git
-
-W trakcie linkowania programu, należy użyć *gb_plwords.o*.
-
-(3) Suma kontrolna dla pliku *plwords.dat* jest wyliczana
-i sprawdzana w pliku *gb_io.w*.
-
--->
-
-<!--
-
-Dopisujemy pliki *gb_plwords.w*, *plladders.w*
-(kopie oryginałów, których nie ruszamy) do *Makefile*.
-
-Zmieniamy nazwy funkcjom publicznym:
-
-    words -> plwords
-    find_word -> find_plword
-
-W implementacji *plwords* podmieniamy plik *words.dat*
-na *plwords.dat*. Teraz powinno działać:
-
-    make tests
-    make plladders
-
--->
-
 ## Laboratoria
 
 1. {%= link_to "Budowanie programów w języku C", "/budowanie-programow" %}
@@ -76,15 +41,6 @@ na *plwords.dat*. Teraz powinno działać:
 
 ## Literatura
 
-<blockquote>
-  <p>When human beings acquired language, we learned not just how to
-  listen but how to speak. When we gained literacy, we learned not
-  just how to read but how to write. And as we move into an
-  increasingly digital reality, we must learn not just how to use
-  programs but how to <b>make</b> them.</p>
-  <p class="author">— Douglas Rushkoff</p>
-</blockquote>
-
 1. [FreeBSD Man Pages] [freebsd]
 1. [Online IDE & Debugging Tool] [ideone]
 1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
@@ -94,6 +50,15 @@ na *plwords.dat*. Teraz powinno działać:
 1. [Learn C The Hard Way](http://learncodethehardway.org/) –
    a clear & direct guide to modern C programming
 
+
+<blockquote>
+  <p>When human beings acquired language, we learned not just how to
+  listen but how to speak. When we gained literacy, we learned not
+  just how to read but how to write. And as we move into an
+  increasingly digital reality, we must learn not just how to use
+  programs but how to <b>make</b> them.</p>
+  <p class="author">— Douglas Rushkoff</p>
+</blockquote>
 
 ## Biblioteki C, kompilatory...
 
