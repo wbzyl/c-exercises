@@ -11,6 +11,8 @@
   </p>
 </blockquote>
 
+<!--
+
 ## Ważne informacje!
 
 **[2011.04.11]** Dwie uwagi do zadania domowego:
@@ -23,6 +25,8 @@ W trakcie linkowania programu, należy użyć *gb_plwords.o*.
 
 (3) Suma kontrolna dla pliku *plwords.dat* jest wyliczana
 i sprawdzana w pliku *gb_io.w*.
+
+-->
 
 <!--
 
