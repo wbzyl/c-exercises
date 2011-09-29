@@ -9,6 +9,7 @@
    if you think about it consciously or worry about it you will kill
    it and your brain will be tired before you start.
   </p>
+  <p class="author">— Ernest Hemingway</p>
 </blockquote>
 
 ## Laboratoria
@@ -43,13 +44,21 @@
 
 1. [FreeBSD Man Pages] [freebsd]
 1. [Online IDE & Debugging Tool] [ideone]
-1. [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
 1. Kernighan Brian W., Ritchie Dennis M.
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
+1. Zed A. Shaw.
+   [Learn C The Hard Way](http://c.learncodethehardway.org/book/) –
+   a clear & direct introduction to modern C programming (beta).
+   Wejdź też tutaj [Learn Code The Hard Way](http://learncodethehardway.org/) –
+   Ruby, Python
+1. David Griffiths, Dawn Griffiths.
+   [Larger Cover Head First C](http://shop.oreilly.com/product/0636920015482.do)
+1. Bruce Eckel.
+   [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
-1. [Learn C The Hard Way](http://learncodethehardway.org/) –
-   a clear & direct guide to modern C programming
-
+1. Keith Cooper, Linda Torczon.
+   [Engineering a Compiler](http://www.elsevier.com/wps/find/bookdescription.cws_home/724559/description)
+   ([strona www](http://www.clear.rice.edu/comp412/))
 
 <blockquote>
   <p>When human beings acquired language, we learned not just how to
@@ -63,7 +72,7 @@
 ## Biblioteki C, kompilatory...
 
 1. {%= link_to "CSLib", "/doc/cslib-wb.tar.bz2" %} — biblioteka
-   początkującego programisty C.
+   początkującego programisty C
 1. [A C language family frontend for LLVM](http://clang.llvm.org/index.html) —
    fast compiles and low memory use, **expressive diagnostics**,
    GCC compatibility
@@ -78,7 +87,7 @@
 1. Krzysztof Diks.
    [Wstęp do programowania w języku C](http://mediawiki.ilab.pl/index.php/Wst%C4%99p_do_programowania_w_j%C4%99zyku_C)
 1. David Turnbull.
-   [How to Get the Most out of Programming Books](http://idebuggedababoon.com/how-to-get-the-most-out-of-programming-books/).
+   [How to Get the Most out of Programming Books](http://idebuggedababoon.com/how-to-get-the-most-out-of-programming-books/)
 1. Joe Armstrong.
    [Ways to get started](http://erlang.org/pipermail/erlang-questions/2011-July/059966.html)
 1. Roedy Green.
