@@ -18,6 +18,7 @@
     }
 
     /* plik biblioteka.c */
+    /* cały plik to te dwa wiersze komentarza */
 
 2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
