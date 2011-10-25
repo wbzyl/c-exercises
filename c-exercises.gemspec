@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
+
 $:.push File.expand_path("../lib", __FILE__)
-require "version"
 
 Gem::Specification.new do |s|
   s.name        = "c-exercises"
-  s.version     = WB::VERSION
+  s.version     = "1.0.0"
   s.authors     = ["Wlodek Bzyl"]
   s.email       = ["matwb@ug.edu.pl"]
   s.homepage    = ""

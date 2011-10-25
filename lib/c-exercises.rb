@@ -16,7 +16,7 @@ module WB
     set :app_file, __FILE__
     set :static, true
 
-    set :erubis, :pattern => '\{% %\}', :trim => true
+    set :erb, :pattern => '\{% %\}', :trim => true
     set :markdown, :layout => false
 
     set :logging, true  # use Rack::CommonLogger
@@ -24,11 +24,11 @@ module WB
     helpers Sinatra::Filler
 
     get '/' do
-      erubis(markdown(:main))
+      erb(markdown(:main))
     end
 
     get '/:section' do
-      erubis(markdown(:"#{params[:section]}"))
+      erb(markdown(:"#{params[:section]}"))
     end
 
     error do
