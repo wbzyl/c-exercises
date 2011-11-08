@@ -141,7 +141,7 @@ kwadratowego. Program ma pytać o
 * wartość końcową
 * krok dla argumentu
 
-i wypisywać tabelką w podanym zakresie.
+i wypisywać tabelkę w podanym zakresie.
 Liczby powinny być wypisywane z dokładnością czterech miejsc po
 przecinku.
 Na przykład, jeżeli podamy 1 jako
