@@ -108,6 +108,7 @@ podzielić przez liczbę wszystkich zliczonych znaków.
 Do pobrania plików wykorzystaj program *curl* lub *wget*:
 
     wget http://www.gutenberg.org/files/4300/4300.txt
+    wget http://www.gutenberg.org/dirs/etext04/7ldv110.txt
 
 5\. Napisz program, który wczytuje plik tekstowy w formacie:
 pierwszy wiersz aktualny format danych w pliku,
