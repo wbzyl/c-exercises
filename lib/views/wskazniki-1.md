@@ -69,7 +69,7 @@ Uwaga 1: Wiersze powinny być gromadzone w tablicy
 wskaźników do char.
 
 Uwaga 2: Do programu
-dodać dodatkowe opcje: `author', `help' i `version';
+dodać dodatkowe opcje: *author*, *help* i *version*;
 do obsługi opcji wykorzystać funkcję
 *getopt_long* albo skorzystać z biblioteki *popt*
 (przykłady użycia można znaleźć na stronach manuala).
