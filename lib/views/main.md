@@ -93,6 +93,8 @@
 1. Roedy Green.
    [How To Write Unmaintainable Code](http://thc.org/root/phun/unmaintain.html) –
    ensure a job for life ;-)
+1. Dustin Boswell, Trevor Foucher.
+   [The Art of Readable Code](http://ofps.oreilly.com/titles/9780596802295/)
 
 
 #### Linki
