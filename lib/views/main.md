@@ -52,7 +52,7 @@
    Wejdź też tutaj [Learn Code The Hard Way](http://learncodethehardway.org/) –
    Ruby, Python
 1. David Griffiths, Dawn Griffiths.
-   [Larger Cover Head First C](http://shop.oreilly.com/product/0636920015482.do)
+   [Head First C](http://shop.oreilly.com/product/0636920015482.do)
 1. Bruce Eckel.
    [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
