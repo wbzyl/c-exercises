@@ -59,6 +59,9 @@
 1. Keith Cooper, Linda Torczon.
    [Engineering a Compiler](http://www.elsevier.com/wps/find/bookdescription.cws_home/724559/description)
    ([strona www](http://www.clear.rice.edu/comp412/))
+1. Mike Banahan, Declan Brady, Mark Doran.
+   [The C Book](http://publications.gbdirect.co.uk/c_book/)
+
 
 <blockquote>
   <p>When human beings acquired language, we learned not just how to
