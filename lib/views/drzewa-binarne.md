@@ -1,12 +1,13 @@
 #### {% title "Drzewa binarne" %}
 
-Poniższy kod pochodzi z książki K&R.
-Przykład programu sterowanego strukturą danych.
+**Problem:** Napisz program zliczający liczbę wystąpień wszystkich słów
+tekstu czytanego ze standardowego wejścia. Po zliczeniu liczby wystąpień
+słów, program powinien je wypisać w porządku alfabetycznym.
 
-Problem: zliczanie wystąpień wszystkich słów
-jakiegoś tekstu czytanego ze standardowego wejścia.
+**Jakieś własne propozycje rozwiązań?**
 
-Jakieś propozycje rozwiązań?
+Poniższe rozwiązanie pochodzi z książki K&R, rozdział 6.
+Jest ono przykładem programu sterowanego strukturą danych.
 
 W poniższym rozwiązaniu strukturą danych będzie drzewo binarne.
 
@@ -18,7 +19,7 @@ W poniższym rozwiązaniu strukturą danych będzie drzewo binarne.
       struct tnode *right;
     };
 
-Program:
+Funkcja główna:
 
     :::c
     #define MAXWORD 100
@@ -43,7 +44,7 @@ Program:
       return 0;
     }
 
-Funkcje pomocnicze.
+Funkcje pomocnicze:
 
     :::c
     /* addtree: dodaj węzeł dla w; szukaj słowa w w p lub poniżej p */
@@ -98,7 +99,7 @@ Funkcje pomocnicze.
       return word[0];
     }
 
-1\. Połącz powyższe kawałki kodu i dodaj brakujące pliki nagłówkowe,
+1\. Połącz powyższe kawałki kodu i dodaj brakujące pliki nagłówkowe,
 tak aby powstał działający program.
 
 2\. Napisz program, który czyta tekst programu w C i wypisuje
