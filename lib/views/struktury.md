@@ -1,4 +1,5 @@
-#### {% title "Struktury"" %}
+#### {% title "Struktury" %}
+
 
 W rozdziale 6.2 podręcznika K&R zaprezentowano kilka funkcji
 manipulujących punktami i prostokątami.
