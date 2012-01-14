@@ -115,4 +115,4 @@ w rodzaju „ten”, „lub” itp. *(K&R, 6.3)*
 
 4\. Napisz program, który zlicza różne słowa podane na standardowym
 wejściu i wypisuje je uporządkowane według malejącej krotności
-ich wystąpień. Każde słowo poprzedź jego krotnością.
+ich wystąpień. Każde słowo poprzedź jego krotnością. *(K&R, 6.4)*
