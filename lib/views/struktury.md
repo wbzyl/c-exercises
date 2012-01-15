@@ -74,8 +74,7 @@ punkt należy do jednego z prostokątów przekazanych w argumentach:
 Wskazówka: skorzystać z przykładu ze strony manuala do
 [stdarg.h](http://www.freebsd.org/cgi/man.cgi?query=stdarg&apropos=0&sektion=0&manpath=FreeBSD+8.1-RELEASE&format=html) —
 listy zmiennych argumentów.
-
-Do testowania można użyć takiej funkcji głównej:
+Do testowania przykładu można użyć takiej funkcji głównej:
 
     :::c
     int main() {
