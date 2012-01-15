@@ -75,6 +75,17 @@ Wskazówka: skorzystać z przykładu ze strony manuala do
 [stdarg.h](http://www.freebsd.org/cgi/man.cgi?query=stdarg&apropos=0&sektion=0&manpath=FreeBSD+8.1-RELEASE&format=html) —
 listy zmiennych argumentów.
 
+Do testowania można użyć takiej funkcji głównej:
+
+    :::c
+    int main() {
+      foo("s", "napis");
+      foo("d", 1234);
+      foo("sdc", "napis", 1234, 'x');
+
+      return 0;
+    }
+
 4\. Napisać program obliczający pole figury składającej się
 z prostokątów:
 
