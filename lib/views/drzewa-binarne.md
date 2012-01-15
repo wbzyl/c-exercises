@@ -9,6 +9,9 @@ słów, program powinien je wypisać w porządku alfabetycznym.
 Poniższe rozwiązanie pochodzi z książki K&R, rozdział 6.
 Jest ono przykładem programu sterowanego strukturą danych.
 
+Rozwiązanie to działa o ile tekst nie zawiera polskich znaków
+diakrytycznych, tj. znaków „ąĄćĆęĘłŁńŃóÓśŚźŹżŻ”.
+
 W poniższym rozwiązaniu strukturą danych będzie drzewo binarne.
 
     :::c
@@ -117,3 +120,6 @@ w rodzaju „ten”, „lub” itp. *(K&R, 6.3)*
 4\. Napisz program, który zlicza różne słowa podane na standardowym
 wejściu i wypisuje je uporządkowane według malejącej krotności
 ich wystąpień. Każde słowo poprzedź jego krotnością. *(K&R, 6.4)*
+
+Na koniec polecam lekturę dokumentacji+kodu programu
+{%= link_to "Zliczanie słów", "/doc/fw.pdf" %}.

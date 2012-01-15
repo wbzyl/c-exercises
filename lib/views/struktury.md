@@ -28,7 +28,7 @@ tworzy strukturę *point*:
       struct point tmp;
       tmp.x = x;
       tmp.y = y;
-      return temp;
+      return tmp;
     }
 
 Funkcja *ptinrect* sprawdza, czy punkt leży
@@ -131,28 +131,3 @@ Szablon programu testującego:
 
       return 0;
     }
-
-Poniższe zadania pochodzą z podręcznika K&R, rozdział 6.5.
-Na początek polecam lekturę dokumentacji+kodu programu
-{%= link_to "Zliczanie słów", "/doc/fw.pdf" %}.
-
-W poniższych programach ogranicz się do tekstów
-nie zawierających polskich znaków diakrytycznych, tj.
-znaków „ąĄćĆęĘłŁńŃóÓśŚźŹżŻ”.
-
-6\. Napisz program, który czyta tekst programu napisanego w C
-i wypisuje w porzadku alfabetycznym wszystkie grupy nazw
-zmiennych o identycznych sześciu początkowych znakach
-i różniących się którymkolwiek z dalszych znaków.
-Nie bierz pod uwagę słów występujących w stałych napisowych
-oraz komentarzach. Niech liczba 6 będzie parametrem,
-który można zmienić w wierszu wywołania programu
-
-7\. Napisz program tworzący skorowidz, tj. wypisujący listę
-wszystkich słów dokumentu i dla każdego słowa listę numerów
-wierszy, w których to słowo wystąpiło. Ze skorowidza
-usuń słowa-ozdobniki w rodzaju „ten”, „lub”, „i” itp.
-
-8\. Napisz program, który zlicza różne słowa podane na wejściu
-i wypisuje je uporządkowane według malejącej krotności ich
-wystąpień. Każde słowo poprzedź jego krotnością.
