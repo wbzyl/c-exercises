@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 1" %}
-
-# Budowanie programów w języku C
+#### {% title "Budowanie programów w języku C" %}
 
 <blockquote>
   {%= image_tag "/images/pike-rob.jpg", :alt => "[Rob Pike]" %}
@@ -20,6 +18,7 @@
     }
 
     /* plik biblioteka.c */
+    /* cały plik to te dwa wiersze komentarza */
 
 2\. Czy do kompilacji *glowny.c* konieczne jest istnienie pliku
 *biblioteka.c*? Przekopiować plik *glowny.c* do osobnego katalogu i
@@ -142,7 +141,7 @@ kwadratowego. Program ma pytać o
 * wartość końcową
 * krok dla argumentu
 
-i wypisywać tabelką w podanym zakresie.
+i wypisywać tabelkę w podanym zakresie.
 Liczby powinny być wypisywane z dokładnością czterech miejsc po
 przecinku.
 Na przykład, jeżeli podamy 1 jako

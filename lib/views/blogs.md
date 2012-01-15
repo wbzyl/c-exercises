@@ -1,7 +1,5 @@
 #### {% title "Blogi studentów" %}
 
-# Blogi studentów
-
 <blockquote>
   {%= image_tag "/images/john-long.jpg", :alt => "[John W. Long]" %}
   <p>Programmers have almost made code simplicity an art form while

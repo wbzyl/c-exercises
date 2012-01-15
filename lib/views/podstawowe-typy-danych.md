@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 2" %}
-
-# Podstawowe typy danych
+#### {% title "Podstawowe typy danych" %}
 
 <blockquote>
 <p>

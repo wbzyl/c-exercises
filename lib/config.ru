@@ -1,14 +1,12 @@
+require 'bundler/setup'
+
 require 'c-exercises'
 
-gem 'rack-codehighlighter'
+require 'coderay'
 require 'rack/codehighlighter'
 
-gem 'ultraviolet'
-require 'uv'
+#use Rack::ShowExceptions
 
-use Rack::ShowExceptions
-use Rack::Lint
-#use Rack::Codehighlighter, :ultraviolet, :theme => "dawn", :element => "pre>code"
-use Rack::Codehighlighter, :ultraviolet, :markdown => true, :element => "pre>code", :pattern => /\A:::([-\w]+)\s*\n/
+use Rack::Codehighlighter, :coderay, :markdown => true, :element => "pre>code"
 
 run WB::CExercises.new

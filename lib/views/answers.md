@@ -1,7 +1,5 @@
 #### {% title "Odpowiedzi do niektórych zadań" %}
 
-# Odpowiedzi do niektórych zadań
-
 <blockquote>
  <p>
    After three days without programming, life becomes meaningless.

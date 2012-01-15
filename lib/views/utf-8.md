@@ -1,6 +1,4 @@
-#### {% title "Laboratorium 3" %}
-
-# UTF-8 – *wchar.h*, *wctype.h*
+#### {% title "ASCII v. UTF-8" %}
 
 Poniższe programy kompilujemy tak:
 
@@ -19,6 +17,12 @@ w systemie locales, na przykład:
 W programach korzystajacych z „wide charactters” nie używamy
 jednocześnie funkcji *char* i *wchar*, na przykład
 *printf* i *wprintf*.
+
+<blockquote>
+<p>Przychodzi informatyk do apteki i mówi:<br>
+   — Poproszę witaminę C++.
+</p>
+</blockquote>
 
 0\. Przeczytać strony manuala *wchar.h* oraz *wctype.h*.
 

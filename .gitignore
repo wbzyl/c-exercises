@@ -1,10 +1,12 @@
+.bundle
 log
-tmp
 pkg
 *~
 .\#*
 \#*
-README.html
-*.gem
-*.gemspec
+*.sqlite3
+lib/tmp/**/*
+Gemfile.lock
+vendor/cache
+lib/tmp/always_restart.txt
 

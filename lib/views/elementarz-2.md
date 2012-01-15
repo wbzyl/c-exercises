@@ -1,7 +1,5 @@
 #### {% title "Elementarz 2" %}
 
-# Elementarz 2
-
 1\. Poniższy – zawierający wiele błędów – program dla podanej
 z klawiatury liczby *M* ma obliczyć najmniejszą liczbę *n*, taką że
 

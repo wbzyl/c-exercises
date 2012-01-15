@@ -1,7 +1,5 @@
 #### {% title "Funkcje" %}
 
-# Funkcje
-
 1\. Zdefiniuj funkcję *przeciwprostokatna* obliczającą długość
 przeciwprostokątnej trójkąta prostokątnego z podanych długości
 przyprostokątnych. Wykorzystaj tę funkcję w programie do określania
@@ -17,7 +15,7 @@ Funkcja powinna pobierać dwa argumenty typu *double* i zwracać długość
 przeciwprostokątnej też jako *double*.
 
 2\. Napisz funkcję, która oblicza wartość silni z liczby
-naturalnej. Wykorzystaj ją w programie wypisującym na wyjście 
+naturalnej. Wykorzystaj ją w programie wypisującym na wyjście
 silnię 10 pierwszych liczb naturalnych.
 
 3\. Liczba doskonała to liczba, która jest sumą podzielników od niej
@@ -51,11 +49,11 @@ prostokątów różnej wielkości:
 
 6\. Napisz program wypisujący przskalowowane liczby LCD:
 
-    -   -    -      
-     |    |    | 
-     |   -    -    itd. 
+    -   -    -
+     |    |    |
+     |   -    -    itd.
      |  |      |
-         -    -      
+         -    -
 
 Skorzystaj z poniższego szablonu:
 
@@ -71,7 +69,7 @@ Skorzystaj z poniższego szablonu:
         l = atoi(argv[1]);
         w = 1;
       } else if (argc == 3 ) {
-        /* wypisywanie liczby ze podanym skalowaniem */ 
+        /* wypisywanie liczby ze podanym skalowaniem */
         l = atoi(argv[1]);
         w = atoi(argv[2]);
       }
@@ -97,7 +95,7 @@ może pójdzie Ci lepiej*. W programie użyj instrukcji
 
 8\. Napisz program, do gry *zgadnij liczbę*.
 
-Oto zasady gry. 
+Oto zasady gry.
 Komputer losuje liczbę z zakresu od 1 do 1000, a użytkownik próbuje ją
 odgadnąć, otrzymując podpowiedzi: *za dużo*, *za mało*. Po
 zgadnięciu liczby, komputer powinien oczywiście wypisać **gratulacje,

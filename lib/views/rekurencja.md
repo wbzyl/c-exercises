@@ -1,9 +1,7 @@
 #### {% title "Rekurencja" %}
 
-# Rekurencja
-
 <blockquote>
- <p>If you need comments in order to able to read my code, 
+ <p>If you need comments in order to able to read my code,
    then you're just a tourist.
  </p>
  <p class="author"><a href="http://exposinggotchas.blogspot.com/2011/01/stop-being-tourist.html">Nick Marden</a></p>

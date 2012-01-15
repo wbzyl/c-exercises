@@ -1,4 +1,4 @@
-#### {% title "Lista studentów" %}
+#### {% title "Lista studentów", false %}
 
 # Grupa A
 
