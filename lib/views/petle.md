@@ -79,7 +79,7 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
    każdym tankowaniu. Po wczytaniu danych program powinien obliczyć
    i wypisać zużyte paliwo, liczbę litrów na potrzebnych na
    przejechanie 100 km oraz koszt przejechania 100 km **po każdym
-   tankowaniu**.  Po przetworzeniu wszystkich informacji, program
+   tankowaniu**. Po przetworzeniu wszystkich informacji, program
    powinien obliczyć i wypisać zbiorczą informację dla wszystkich
    tankowań.
 
@@ -88,6 +88,7 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
    minus `--` powinny być pomijane.  Przykładowy plik z danymi może
    wyglądać tak:
 
+    :::text tankowania-2011
     -- wrzesień
     300 30.4 4.25
     345 25.7 4.45
@@ -98,7 +99,7 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
 
 Swój program zacznij od modyfikacji poniższego kodu:
 
-    :::c
+    :::c tankowania.c
     #include <stdio.h>
     #include <stdlib.h>
     int main(int argc, char *argv[])
@@ -115,3 +116,8 @@ Swój program zacznij od modyfikacji poniższego kodu:
       fclose(in_handle);
       return EXIT_SUCCESS;
     }
+
+Po skompilowaniu, program uruchamiamy w następujący sposób:
+
+    :::bash
+    ./tankowania tankowania-2011
