@@ -86,9 +86,9 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
    Dane o tankowaniu powinny być wpisane w jednym wierszu, a wiersze
    zawierające tylko białe znaki lub rozpoczynające się dwoma znakami
    minus `--` powinny być pomijane.  Przykładowy plik z danymi może
-   wyglądać tak:
+   wyglądać tak (plik *tankowania-2011.txt*):
 
-    :::text tankowania-2011
+    :::text
     -- wrzesień
     300 30.4 4.25
     345 25.7 4.45
@@ -97,9 +97,10 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
     434 15.4 4.25
     345 5.7  4.19
 
-Swój program zacznij od modyfikacji poniższego kodu:
+Swój program zacznij od modyfikacji poniższego kodu
+(plik *tankowania.c*):
 
-    :::c tankowania.c
+    :::c
     #include <stdio.h>
     #include <stdlib.h>
     int main(int argc, char *argv[])
@@ -120,4 +121,4 @@ Swój program zacznij od modyfikacji poniższego kodu:
 Po skompilowaniu, program uruchamiamy w następujący sposób:
 
     :::bash
-    ./tankowania tankowania-2011
+    ./tankowania tankowania-2011.txt
