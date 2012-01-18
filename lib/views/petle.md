@@ -74,28 +74,34 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
 -->
 
 9\. Kierowcy interesują się zużyciem paliwa do swoich samochodów.
-   Napisz program, który będzie pobierał z pliku liczbę przejechanych
-   kilometrów, zatankowanych litrów paliwa i cenę za litr paliwa przy
-   każdym tankowaniu. Po wczytaniu danych program powinien obliczyć
-   i wypisać zużyte paliwo, liczbę litrów na potrzebnych na
-   przejechanie 100 km oraz koszt przejechania 100 km **po każdym
-   tankowaniu**. Po przetworzeniu wszystkich informacji, program
-   powinien obliczyć i wypisać zbiorczą informację dla wszystkich
-   tankowań.
+Napisz program, który będzie pobierał z pliku liczbę kilometrów
+z licznika samochodu,, liczbę zatankowanych litrów paliwa
+i cenę za litr paliwa przy.
 
-   Dane o tankowaniu powinny być wpisane w jednym wierszu, a wiersze
-   zawierające tylko białe znaki lub rozpoczynające się dwoma znakami
-   minus `--` powinny być pomijane.  Przykładowy plik z danymi może
-   wyglądać tak (plik *tankowania-2011.txt*):
+Dane o tankowaniu powinny być wpisane w jednym wierszu, a wiersze
+zawierające tylko białe znaki lub rozpoczynające się dwoma znakami
+minus `--` powinny być pomijane.  Przykładowy plik z danymi może
+wyglądać tak (plik *tankowania-2011.txt*):
 
     :::text
     -- wrzesień
-    300 30.4 4.25
-    345 25.7 4.45
+    10300 30.4 4.25
+    10645 25.7 4.45
 
     -- październik
-    434 15.4 4.25
-    345 5.7  4.19
+    11020 15.4 4.25
+    11100  5.7 4.19
+
+Po wczytaniu danych program powinien obliczyć i wypisać
+dla każdego tankowania (za wyjątkiem pierwszego):
+liczbę przejechanych kilometrów,
+liczbę litrów potrzebnych na przejechanie 100 km
+oraz koszt przejechania 100 km.
+
+Po przetworzeniu wszystkich informacji, program
+powinien obliczyć i wypisać zbiorczą informację dla wszystkich
+tankowań.
+
 
 Swój program zacznij od modyfikacji poniższego kodu
 (plik *tankowania.c*):
