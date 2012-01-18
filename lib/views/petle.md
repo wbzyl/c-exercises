@@ -76,7 +76,7 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
 9\. Kierowcy interesują się zużyciem paliwa do swoich samochodów.
 Napisz program, który będzie pobierał z pliku liczbę kilometrów
 z licznika samochodu,, liczbę zatankowanych litrów paliwa
-i cenę za litr paliwa przy.
+i cenę za litr paliwa dla każdego tankowania.
 
 Dane o tankowaniu powinny być wpisane w jednym wierszu, a wiersze
 zawierające tylko białe znaki lub rozpoczynające się dwoma znakami
