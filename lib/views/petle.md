@@ -80,8 +80,11 @@ i cenę za litr paliwa dla każdego tankowania.
 
 Dane o tankowaniu powinny być wpisane w jednym wierszu, a wiersze
 zawierające tylko białe znaki lub rozpoczynające się dwoma znakami
-minus `--` powinny być pomijane.  Przykładowy plik z danymi może
-wyglądać tak (plik *tankowania-2011.txt*):
+minus `--` powinny być pomijane.
+Zakładamy, że za każdym razem tankujemy do pełna.
+
+Przykładowy plik z danymi może wyglądać tak
+(plik *tankowania-2011.txt*):
 
     :::text
     -- wrzesień
