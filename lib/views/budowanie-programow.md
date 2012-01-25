@@ -186,7 +186,7 @@ Z kolei polecenie:
 spowoduje usunięcie plików z rozszerzeniem *.o*
 oraz plików tymczasowych edytorów *vi* i *emacs*.
 
-Dokumentacja do programu *make* dostępna jest online:
+Dokumentacja programu *make* dostępna jest online:
 
 * [GNU make](http://www.gnu.org/software/make/manual/make.html)
   (HTML, jedna strona)
