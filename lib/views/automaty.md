@@ -31,3 +31,8 @@ Przykładowy automat skończony do tego zadania:
 
 2\. Napisać program usuwający komentarze z tekstu
 programu napisanego w C.
+
+
+### Dodatkowa lektura
+
+* [Standalone lexers with lex: synopsis, examples, and pitfalls](http://matt.might.net/articles/standalone-lexers-with-lex/)
