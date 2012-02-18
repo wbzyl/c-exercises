@@ -151,3 +151,44 @@ powinismy dostać:
     1.0000  1.0000
     1.5000  1.2247
     2.0000  1.4142
+
+## Program make
+
+Kompilowanie programów ułatwia program *make*.
+Program *make* korzysta z instrukcji wpisanych
+w pliku *Makefile*.
+
+Dla programów składających się z jednego pliku, wystarczy utworzyć
+plik *Makefile* o takiej zawartości:
+
+    :::text
+    CFLAGS=-Wall -g
+    LDFLAGS=-lm
+
+    clean:
+        rm -f *.o *~
+
+gdzie wiersz z `rm` zaczyna się od znaku **tabulacji**.
+
+Po skopiowaniu pliku *Makefile* do katalogu z programami,
+wystarczy wykonać:
+
+    :::bash
+    make zadanie4
+
+aby skompilować program *zadanie4.c* do *zadanie4*.
+
+Z kolei polecenie:
+
+    :::bash
+    make clean
+
+spowoduje usunięcie plików z rozszerzeniem *.o*
+oraz plików tymczasowych edytorów *vi* i *emacs*.
+
+Dokumentacja programu *make* dostępna jest online:
+
+* [GNU make](http://www.gnu.org/software/make/manual/make.html)
+  (HTML, jedna strona)
+* [GNU make](http://www.gnu.org/software/make/manual/make.pdf)
+  (PDF)
