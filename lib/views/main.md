@@ -100,6 +100,8 @@
 1. Dustin Boswell, Trevor Foucher.
    [The Art of Readable Code](http://ofps.oreilly.com/titles/9780596802295/)
 1. [The History of Programming Languages](http://oreilly.com/news/languageposter_0504.html)
+1. Steve Kobes.
+   [C Programming Puzzlers](http://stevenkobes.com/ctest.html)
 
 
 #### Linki
