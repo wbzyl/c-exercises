@@ -95,7 +95,7 @@ START/STOP odpowiedni fragment kodu:
 W sieci można znaleźć plik z listą imion dla kobiet.
 W rozwiązaniu skorzystać z takiego pliku.
 
-2\. **Piszemy „po chinsku”**. W chińskim tekście słowa
+2\. **Piszemy „po chińsku”**. W chińskim tekście słowa
 nie są w żaden sposób oddzielone od siebie, na przykład
 takie zdanie:
 
