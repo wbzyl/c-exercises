@@ -6,12 +6,12 @@
 
 Potrzebne tablice:
 
-* 10 liczb losowych z przedziału [0, 1000)   – do testowania
+* 10 liczb losowych z przedziału [0, 100)   – do testowania
 * 10000 liczb losowych z przedziału [0, 1000) – na zawody
 
 Liczby zapisujemy do pliku. Program powinien najpierw wczytać liczby
 z pliku do tablicy, a następnie wyszukać największą liczbę
-(zad. 1), największą i najmniejsą liczbę (zad. 2).
+(zad. 1), największą i najmniejszą liczbę (zad. 2).
 Mierzymy tylko czas wyszukiwania.
 
 A to przykładowy program do generowania takich tablic:
