@@ -1,5 +1,15 @@
 #### {% title "Funkcje" %}
 
+<blockquote>
+<p>{%= image_tag "/images/ejs.png", :alt => "[Eloquent JavaScript]" %}</p>
+<p>
+ Laziness, for a programmer, is not necessarily a sin. The kind of
+ people who will industriously do the same thing over and over again
+ tend to make great assembly-line workers and lousy programmers.
+</p>
+<p class="author">— <a href="http://eloquentjavascript.net">Marijn Haverbeke</a></p>
+</blockquote>
+
 1\. Zdefiniuj funkcję *przeciwprostokatna* obliczającą długość
 przeciwprostokątnej trójkąta prostokątnego z podanych długości
 przyprostokątnych. Wykorzystaj tę funkcję w programie do określania
