@@ -94,6 +94,13 @@
 1. Neal H. Walfield. [Lambdas in C](http://walfield.org/blog/2010/08/25/lambdas-in-c.html)
 
 
+<blockquote>
+ <p>Reading, after a certain age, diverts the mind too
+  much from its creative pursuits. Any man who reads too much and uses
+  his own brain too little falls into lazy habits of thinking.</p>
+ <p class="author">Albert Einstein</p>
+</blockquote>
+
 ## Różności
 
 1. [6.087 Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/) – MIT Open Courseware
