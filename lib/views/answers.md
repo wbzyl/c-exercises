@@ -256,7 +256,7 @@ Zadanie 4.
     };
 
     /* zwróć prostokąt będący przecięciem prostokątów;
-       jeśli prostokąty są rozłaczne, to zwróć prostokąt [[0,0], [0,0]] */
+       jeśli prostokąty są rozłaczne, to zwróć „odcinek” */
     struct rect intersect(struct rect r1, struct rect r2);
 
     /* zwróć pole prostokąta */
@@ -317,7 +317,7 @@ Skorzystamy z tej własności odcinków w kodzie poniżej.
       } else if (r2.ll.x <= r1.ll.x && r1.ll.x <= r2.ur.x) {
         r.ll.x = x[1]; r.ur.x = x[2];
       } else {
-        r.ll.x = r.ur.x = 0;
+        r.ll.x = r.ur.x = 0;  // rozłączne prostokąty
       }
 
       if (r1.ll.y <= r2.ll.y && r2.ll.y <= r1.ur.y) {
@@ -325,7 +325,7 @@ Skorzystamy z tej własności odcinków w kodzie poniżej.
       } else if (r2.ll.y <= r1.ll.y && r1.ll.y <= r2.ur.y) {
         r.ll.y = y[1]; r.ur.y = y[2];
       } else {
-        r.ll.y = r.ur.y = 0;
+        r.ll.y = r.ur.y = 0;  // rozłączne prostokąty
       }
 
       return r;
@@ -346,3 +346,4 @@ Wykonać refaktoryzację kodu:
 
 * dodać funkcję intersect dla odcinków
 * uprościć *if*-y w funkcji *intersect*
+* korzystając z kodu powyżej zaimplementować funkcję *disjointrect*
