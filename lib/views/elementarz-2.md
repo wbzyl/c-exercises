@@ -1,5 +1,11 @@
 #### {% title "Elementarz 2" %}
 
+<blockquote>
+  {%= image_tag "/images/algorithm.png", :alt => "[Algorithm]" %}
+  <p>Remember, good code is like a good joke: It needs no explanation.</p>
+  <p class="author">[old school programming wisdom]</p>
+</blockquote>
+
 1\. Poniższy – zawierający wiele błędów – program dla podanej
 z klawiatury liczby *M* ma obliczyć najmniejszą liczbę *n*, taką że
 
