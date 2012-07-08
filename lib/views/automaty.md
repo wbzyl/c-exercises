@@ -36,3 +36,5 @@ programu napisanego w C.
 ### Dodatkowa lektura
 
 * [Standalone lexers with lex: synopsis, examples, and pitfalls](http://matt.might.net/articles/standalone-lexers-with-lex/)
+* Mark W. Shead.
+  [State Machines – Basics of Computer Science](http://blog.markwshead.com/869/state-machines-computer-science/)

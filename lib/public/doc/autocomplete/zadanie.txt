@@ -1,0 +1,2 @@
+
+Given the prefix, you want to extract a few words that start with the specified prefix.

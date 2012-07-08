@@ -35,7 +35,16 @@
 
 <!-- zob. też http://edu.i-lo.tarnow.pl/inf/alg/001_search/index.php -->
 
-### Zadania ekstra & rozwiązania
+<blockquote>
+  {%= image_tag "/images/wallace_and_gromit.jpg", :alt => "[Wallace and Grommit]" %}
+  <p>
+  Wallace (left), an absent-minded inventor living in Wigan, Lancashire.
+  He is well-known as being a great designer and constructor of
+  <a href="">the Rube Goldberg machines</a>.
+  </p>
+</blockquote>
+
+## Zadania ekstra & rozwiązania
 
 * {%= link_to "Zadania extra", "/extra" %}
 * {%= link_to "Odpowiedzi do niektórych zadań", "/answers" %}
@@ -84,6 +93,13 @@
    [The Khan Academy](http://www.youtube.com/user/khanacademy)
 1. Neal H. Walfield. [Lambdas in C](http://walfield.org/blog/2010/08/25/lambdas-in-c.html)
 
+
+<blockquote>
+ <p>Reading, after a certain age, diverts the mind too
+  much from its creative pursuits. Any man who reads too much and uses
+  his own brain too little falls into lazy habits of thinking.</p>
+ <p class="author">Albert Einstein</p>
+</blockquote>
 
 ## Różności
 
