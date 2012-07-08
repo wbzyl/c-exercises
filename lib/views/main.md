@@ -102,6 +102,7 @@
 1. [The History of Programming Languages](http://oreilly.com/news/languageposter_0504.html)
 1. Steve Kobes.
    [C Programming Puzzlers](http://stevenkobes.com/ctest.html)
+1. [The Codeless Code](http://thecodelesscode.com/contents) – Kōans for the Software Engineer
 
 
 #### Linki
