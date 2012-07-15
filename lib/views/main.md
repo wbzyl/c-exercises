@@ -80,6 +80,8 @@
   increasingly digital reality, we must learn not just how to use
   programs but how to <b>make</b> them.</p>
   <p class="author">— Douglas Rushkoff</p>
+  <p><i>spoken thought</i> ⇨ <i>written thought</i> ⇨ <i>executable thought</i>
+  <p class="author">— <a href="http://blog.vivekhaldar.com/post/23430363068/executable-thought">Vivek Haldar</a></p>
 </blockquote>
 
 ## Biblioteki C, kompilatory...
@@ -98,7 +100,7 @@
  <p>Reading, after a certain age, diverts the mind too
   much from its creative pursuits. Any man who reads too much and uses
   his own brain too little falls into lazy habits of thinking.</p>
- <p class="author">Albert Einstein</p>
+ <p class="author">— Albert Einstein</p>
 </blockquote>
 
 ## Różności
