@@ -71,6 +71,10 @@
    ([strona www](http://www.clear.rice.edu/comp412/))
 1. Mike Banahan, Declan Brady, Mark Doran.
    [The C Book](http://publications.gbdirect.co.uk/c_book/)
+1. Richard M. Stallman, Roland McGrath, Paul D. Smith.
+   [GNU Make](http://www.gnu.org/software/make/manual/)
+1. Gary V. Vaughan, Ben Elliston, Tom Tromey, Ian Lance Taylor.
+   [GNU Autoconf, Automake and Libtool](http://sources.redhat.com/autobook/)
 
 
 <blockquote>
