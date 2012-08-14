@@ -88,7 +88,7 @@ Zadanie 4.
 
 <blockquote>
  <p>To know the road ahead, ask those coming back.</p>
- <p class="author">[Chinese proverb]</p>
+ <p class="author">[ <a href="http://www.cs.unc.edu/~azuma/hitch4.html">Chinese proverb</a> ]</p>
 </blockquote>
 
 ## Automaty skończone
