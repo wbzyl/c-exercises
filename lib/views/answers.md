@@ -86,6 +86,11 @@ Zadanie 4.
 
 -->
 
+<blockquote>
+ <p>To know the road ahead, ask those coming back.</p>
+ <p class="author">[Chinese proverb]</p>
+</blockquote>
+
 ## Automaty skończone
 
 Zadanie 1.
