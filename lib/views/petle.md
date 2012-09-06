@@ -65,7 +65,7 @@ Wpisz ten program, uruchom go i sprawdź czy dobrze odgadłeś wynik.
     ***     **        **     ***
     ****    *          *    ****
 
-9\. Napis program monożący liczby tak jak to pokazano w tym filmiku
+9\. Napisz program monożący liczby tak jak to pokazano w tym filmiku
 [A Night Of Numbers – Go Forth And Multiply](http://www.youtube.com/watch?v=Nc4yrFXw20Q).
 
 
