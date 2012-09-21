@@ -58,6 +58,22 @@ pierwsza.
       return 0;
     }
 
+
+<blockquote>
+  <p>Rozmawiają dwaj profesorowie matematyki:<br>
+  – Dasz mi swój nr telefonu?<br>
+  – No pewnie. Trzecia cyfra jest trzykrotnością pierwszej.
+  Czwarta i szósta są takie same.
+  Druga jest większa o jeden od piątej.
+  Suma sześciu cyfr to 23, a iloczyn 2160.<br>
+  – W porządku, zapisałem – 256 343.<br>
+  – Zgadza się. Nie zapomnisz?<br>
+  – Skądże. To kwadrat 16 i sześcian 7.</p>
+  <p class="author"><a href="http://dilbert.com/strips/comic/1992-07-18/">Dilbert & Math</a></p>
+</blockquote>
+
+{%= image_tag "/images/dilbert-supercomputer-pi.png", :alt => "[Algorithm]" %}
+
 3\. Oblicz wartość π (pi) z nieskończonej sumy
 
     π = 4 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...
