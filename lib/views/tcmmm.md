@@ -107,3 +107,13 @@ Zaśpiewaj koteczku jeszcze raz.
 <p>Być może wygodnie będzie skorzystać z usług jakiejś
 biblioteki oferującej funkcje na czasie 8->
 </p>
+
+<p><b>Zadanie 4.</b>
+
+<p>Przeczytać <i>cucu: a compiler you can understand</i></p>
+
+<ul>
+<li><a href="http://zserge.com/blog/cucu-part1.html">part 1</a>
+<li><a href="http://zserge.com/blog/cucu-part2.html">part 2</a>
+<li><a href="http://zserge.com/blog/cucu-part3.html">part 3</a>
+</ul>
