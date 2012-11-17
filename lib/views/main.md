@@ -128,6 +128,11 @@
 1. Steve Kobes.
    [C Programming Puzzlers](http://stevenkobes.com/ctest.html)
 1. [The Codeless Code](http://thecodelesscode.com/contents) – Kōans for the Software Engineer
+1. C. Lawrence Wenham.
+   [Signs that you're a bad programmer](http://www.yacoset.com/Home/signs-that-you-re-a-bad-programmer),
+   zwłaszcza rozdział „Signs that you shouldn't be a programmer”
+1. C. Lawrence Wenham.
+   [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 
 
 #### Linki
