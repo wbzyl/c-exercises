@@ -161,11 +161,11 @@ w pliku *Makefile*.
 
 ### Program make bez Makefile
 
-ale tylko dla programów składających się z jednego pliku.
+…ale tylko dla programów składających się z **jednego pliku**.
 
 Zaczynamy od wykonania poniższego polecenia na terminalu:
 
-    :::bash Terminal
+    :::bash
     export CFLAGS='-g -Wall --std=gnu99'
     export LDLIBS='-lm'
 
@@ -195,7 +195,7 @@ wystarczy wykonać:
     :::bash
     make hello
 
-aby przetłumaczyć program *hello.c* do *hello*.
+aby skompilować program *hello.c* z C.
 
 Z kolei polecenie:
 
