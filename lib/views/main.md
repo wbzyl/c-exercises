@@ -56,6 +56,15 @@
 1. [Online IDE & Debugging Tool] [ideone]
 1. Kernighan Brian W., Ritchie Dennis M.
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
+1. Richard M. Stallman, Roland McGrath, Paul D. Smith.
+   [GNU Make](http://www.gnu.org/software/make/manual/)
+1. Gary V. Vaughan, Ben Elliston, Tom Tromey, Ian Lance Taylor.
+   [GNU Autoconf, Automake and Libtool](http://sources.redhat.com/autobook/)
+1. [Valgrind](http://valgrind.org/) –
+   an instrumentation framework for building dynamic analysis tools
+
+Podręczniki:
+
 1. Zed A. Shaw.
    [Learn C The Hard Way](http://c.learncodethehardway.org/book/) –
    a clear & direct introduction to modern C programming (beta).
@@ -63,6 +72,8 @@
    Ruby, Python
 1. David Griffiths, Dawn Griffiths.
    [Head First C](http://shop.oreilly.com/product/0636920015482.do)
+1. Ben Klemens.
+   [21st Century C](http://shop.oreilly.com/product/0636920025108.do)
 1. Bruce Eckel.
    [Thinking in C Beta 3](http://mindview.net/CDs/ThinkingInC)
 1. Stephen Prata. [Język C. Szkoła programowania](http://helion.pl/)
@@ -71,10 +82,6 @@
    ([strona www](http://www.clear.rice.edu/comp412/))
 1. Mike Banahan, Declan Brady, Mark Doran.
    [The C Book](http://publications.gbdirect.co.uk/c_book/)
-1. Richard M. Stallman, Roland McGrath, Paul D. Smith.
-   [GNU Make](http://www.gnu.org/software/make/manual/)
-1. Gary V. Vaughan, Ben Elliston, Tom Tromey, Ian Lance Taylor.
-   [GNU Autoconf, Automake and Libtool](http://sources.redhat.com/autobook/)
 
 
 <blockquote>
