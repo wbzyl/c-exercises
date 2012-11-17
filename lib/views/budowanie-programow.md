@@ -158,12 +158,31 @@ Kompilowanie programów ułatwia program *make*.
 Program *make* korzysta z instrukcji wpisanych
 w pliku *Makefile*.
 
+
+### Program make bez Makefile
+
+ale tylko dla programów składających się z jednego pliku.
+
+Zaczynamy od wykonania poniższego polecenia na terminalu:
+
+    :::bash Terminal
+    export CFLAGS='-g -Wall --std=gnu99'
+    export LDLIBS='-lm'
+
+Teraz aby przetłumaczyć *hello.c* z C na *hello* wykonujemy:
+
+    :::bash
+    make hello
+
+
+### Przykładowy plik Makefile
+
 Dla programów składających się z jednego pliku, wystarczy utworzyć
 plik *Makefile* o takiej zawartości:
 
     :::text
-    CFLAGS=-Wall -g
-    LDFLAGS=-lm
+    CFLAGS=-g -Wall --std=gnu99
+    LDLIBS=-lm
 
     clean:
         rm -f *.o *~
@@ -174,9 +193,9 @@ Po skopiowaniu pliku *Makefile* do katalogu z programami,
 wystarczy wykonać:
 
     :::bash
-    make zadanie4
+    make hello
 
-aby skompilować program *zadanie4.c* do *zadanie4*.
+aby przetłumaczyć program *hello.c* do *hello*.
 
 Z kolei polecenie:
 
