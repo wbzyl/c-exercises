@@ -195,7 +195,7 @@ wystarczy wykonać:
     :::bash
     make hello
 
-aby skompilować program *hello.c* z C.
+aby skompilować program *hello.c*.
 
 Z kolei polecenie:
 
