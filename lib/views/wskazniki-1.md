@@ -1,18 +1,54 @@
 #### {% title "Wskaźniki 1" %}
 
-<blockquote><a href="http://www.ariel.com.au/jokes/The_Evolution_of_a_Programmer.html">The
-  Evolution of a Programmer</a>
-</blockquote>
+1\. Co wypisuje następujący program:
 
-1\. Uzupełnij kod funkcji *podnies_do_kwadratu* oraz *wczytaj_liczbe*
+    :::c
+    #include <stdio.h>
+
+    int main () {
+      int ref[] = {8, 4, 0, 2};
+      int *wsk;
+      int indeks;
+
+      for (indeks = 0, wsk = ref; indeks < 4; indeks++, wsk++)
+        printf("%d %d\n", ref[indeks], *wsk);
+    }
+
+Ile elementów ma tablica `ref`?
+Czego adresem jest `ref`? a `ref+1`?
+Na co wskazuje `++ref`?
+
+2\. Jaka jest wartość `*wsk` oraz `*(wsk+2)` w każdym przypadku:
+
+(a)
+    :::c
+    int *wsk;
+    int tab[2][2] = {12, 14, 16};
+    wsk = tab[0];
+
+(b)
+    :::c
+    int *wsk;
+    int tab[2][2] = { {12}, {14, 16} };
+    wsk = tab[0];
+
+Napisz prosty program, który sprawdzi twoje odpowiedzi.
+
+Ile wynosi `**wsk` oraz `**(wsk+1)` w każdym przypadku?
+
+3\. Uzupełnij kod funkcji *podnies_do_kwadratu* oraz *wczytaj_liczbe*
 tak aby powstał działający program:
 
     :::c
     void podnies_do_kwadratu(int *n) {
+
     }
+
     void wczytaj_liczbe(int *n) {
       printf("Wpisz liczbę naturalną: ");
+
     }
+
     int main() {
        int liczba;
        wczytaj_liczbe(&liczba);
@@ -21,55 +57,50 @@ tak aby powstał działający program:
        return 0;
     }
 
+4\. Napisz funkcję, która zwraca różnicę między największym i najmniejszym
+elementem tablicy podanej jako argument funkcji.
+Przetestuj ją w prostym programie.
 
-2\. Napisz program, który korzysta z dwóch tablic. Jedna to tablica
-4 liczb całkowitych, druga to tablica wskaźników na liczby całkowite.
+5\. Napisz program, używajacy wskaźników do nadania wartości 0
+każdemu elementowi tablicy `int tab[10]`.
+Przetestuj ją w prostym programie.
 
-Przeprowadź proste przeszukiwanie tablicy liczb w celu odszukania
-najmniejszej i zapamiętaj jej wskaźnik w tablicy wskaźników pod indeksem 0.
-Potem poszukaj kolejnej i ponownie zapamiętaj jej wskaźnik na
-następnym miejscu w tablicy wskaźników. W ten sposób utwórz całą
-tablicę wskaźników. Zwróć uwagę na to, że takim sposobem możesz
-posortować nieduże tablice liczb całkowitych bez konieczności
-zmiany w nich kolejności danych. Wypisz na ekran zawartość obu
-tablic.
+6\. Napisz funkcję, której argumentem jest napis i która zwraca
+wskaźnik do pierwszego znaku nie będącego znakiem odstępu
+(*nonwhite character*) w podanym napisie.
+Przetestuj ją w prostym programie.
 
-**Wskazówka:** Skorzystaj z programu *cdecl*;
-uruchom program *cdecl* i wpisz:
+7\. Napisać program znajdujący sumy roczne, roczne średnie oraz
+średnie miesięczne dla danych o opadach z kilku lat.
+W tym celu uzupełnij poniższy kod:
 
-    declare a as array 4 of pointer to int
+    :::c
+    #include <stdio.h>
 
-Przeczytaj stronę manuala programu *cdecl*.
+    #define MIESIACE 12
+    #define LATA 4
 
-3\. Zadeklaruj w programie tablicę
-dziesięcioelementową wskaźników do tablic pięcioelementowych
-wskaźników na liczby rzeczywiste. Następnie wczytaj do tej tablicy
-kilka liczb. Wypisz na wyjście te liczby.
+    int main () {
+      int deszcz[LATA][MIESIACE] = { // dane o opadach są wyrażone w mm
+        {10, 20, 10, 30, 10, 15, 50, 60, 25,  5, 80, 30},  // 2008
+        {10, 20,  5, 35, 15, 15, 60, 60, 25, 10, 80, 35},  // 2009
+        {10,  8, 15, 30, 10, 15, 70, 70, 45,  5, 85, 40},  // 2010
+        { 5, 20, 15, 35, 15, 15, 50, 65, 45, 20, 90, 30}   // 2011
+      };
 
-**Wskazówka:** Skorzystaj z programu *cdecl*.
+      ...
 
-4\. Napisz program *xtail* wypisujący
-*n* ostatnich wierszy tekstu podanego na wejściu.
+    }
 
-Domyślną wartością *n* jest 10, ale wartość tę można
-zmienić za pomocą opcjonalnego argumentu wywołania programu.
-Na przykład, każde z poleceń:
+tak aby po skompilowaniu wypisywał wyniki w takim formacie:
 
-    xtail  -n 5
-    xtail  --lines 5
-
-spowoduje wypisanie 5 ostatnich wierszy.
-
-Program powinien działać sensownie niezależnie od tego,
-jak nierozsądne są dane wejściowe lub wartość *n*.
-Przygotować zestaw testów pokazujących
-„rozsądne zachowanie” programu.
-
-Uwaga 1: Wiersze powinny być gromadzone w tablicy
-wskaźników do char.
-
-Uwaga 2: Do programu
-dodać dodatkowe opcje: *author*, *help* i *version*;
-do obsługi opcji wykorzystać funkcję
-*getopt_long* albo skorzystać z biblioteki *popt*
-(przykłady użycia można znaleźć na stronach manuala).
+    Opady w kolejnych latach (w mm)
+      457
+      800
+      300
+      252
+    Roczna średnia wynosi 545 mm.
+    Średnie miesięczne:
+     I   II  III ... XII
+    --------------------
+    20   25   35 ...  45

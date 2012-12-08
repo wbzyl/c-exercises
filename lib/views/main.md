@@ -27,6 +27,7 @@
 1. {%= link_to "Rekurencja", "/rekurencja" %}
 1. {%= link_to "Pliki", "/pliki" %}
 1. {%= link_to "Wskaźniki 1", "/wskazniki-1" %}
+1. {%= link_to "Wskaźniki 2", "/wskazniki-2" %}
 1. {%= link_to "Struktury", "/struktury" %}
 1. {%= link_to "Drzewa binarne", "/drzewa-binarne" %}
 1. {%= link_to "Trening czyni misztrza, miszcza, mistrza …", "/tcmmm" %}
