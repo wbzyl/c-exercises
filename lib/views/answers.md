@@ -172,8 +172,7 @@ Zadanie 8.
 
     :::c
     #include <stdio.h>
-
-    int wzor( int x, int y);
+    int wzor(int x, int y);
 
     int main() {
       int x = 1, j = 0, i;
@@ -181,7 +180,7 @@ Zadanie 8.
       while (j <= 3) {
         int tab[7] = {x, 8-x, 5-x, (x+1)*2, tab[2], tab[1], x};
         i = 0;
-        while (i <= 6){
+        while (i <= 6) {
           wzor(tab[i], i);
           i++;
         }
@@ -206,9 +205,46 @@ Zadanie 8.
     }
 
 
-## Wskaźniki 1
+## Funkcje
 
-Zadanie 2.
+Zadanie 3.
+
+    :::c
+    #include <stdio.h>
+    #include <stdbool.h>
+
+    bool is_perfect_number(int n) {
+      int suma = 0;
+      for (int i = 1; i < n; ++i) {
+        if (n % i == 0) {
+          suma += i;
+        }
+      }
+      if (suma == n) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    int main() {
+      for (int i = 1; i < 10000; ++i) {
+        bool wynik = is_perfect_number(i);
+        if (wynik)
+          printf("liczba %i jest doskonala\n", i);
+      }
+    }
+
+Piątą liczbą doskonałą jest 33 550 336, a szóstą
+‒ 8 589 869 056. Ile czasu zajmie temu programowi
+wyliczenie piątej liczby doskonałej?
+Czy program ten poradzi sobie z obliczeniem
+szóstej liczby doskonałej?
+
+
+## Wskaźniki 2
+
+Zadanie 1.
 
     :::c
     #include <stdio.h>
