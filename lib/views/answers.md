@@ -228,7 +228,7 @@ Zadanie 3.
     }
 
     int main() {
-      for (int i = 1; i < 1000000; ++i) {
+      for (int i = 1; i < 10000; ++i) {
         bool wynik = is_perfect_number(i);
         if (wynik)
           printf("liczba %i jest doskonala\n", i);

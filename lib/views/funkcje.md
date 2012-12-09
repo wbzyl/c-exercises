@@ -33,9 +33,12 @@ mniejszych. Na przykład 6 jest liczbą doskonałą ponieważ:
 
     1 + 2 + 3 = 6
 
-Napisz funkcję, która sprawdza czy podana liczba jest doskonała.  Użyj
-tej funkcji do wypisania wszystkich liczb doskonałych mniejszych od
-1000.
+Napisz funkcję, która sprawdza czy podana liczba jest doskonała.
+Użyj tej funkcji do wypisania wszystkich liczb doskonałych mniejszych
+od 10 000.
+
+Listę liczb doskonałych znanych do roku 2012 znajdziemy w Wikipedii,
+[List of perfect numbers](http://en.wikipedia.org/wiki/List_of_perfect_numbers).
 
 4\. Napisz funkcję, która po wczytaniu liczby całkowitej wypisze jej
 cyfry zaczynając od ostatniej i kończąc na pierwszej.  Na przykład po
