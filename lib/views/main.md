@@ -141,6 +141,8 @@ Podręczniki:
    zwłaszcza rozdział „Signs that you shouldn't be a programmer”
 1. C. Lawrence Wenham.
    [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
+1. Lars Marius Garshol.
+   [BNF and EBNF: What are they and how do they work?](http://www.garshol.priv.no/download/text/bnf.html)
 
 
 #### Linki
