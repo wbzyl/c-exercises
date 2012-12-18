@@ -33,7 +33,7 @@ Czego adresem jest `ref`? a `ref+1`?
 
 Napisz prosty program, który sprawdzi twoje odpowiedzi.
 
-Ile wynosi `**wsk` oraz `**(wsk+1)` w każdym przypadku?
+Ile wynosi `*(wsk+1)` oraz `*(wsk+3)` w każdym przypadku?
 
 3\. Uzupełnij kod funkcji *podnies_do_kwadratu* oraz *wczytaj_liczbe*
 tak aby powstał działający program:
