@@ -143,6 +143,8 @@ Podręczniki:
    [Signs that you're a good programmer](http://www.yacoset.com/Home/signs-that-you-re-a-good-programmer)
 1. Lars Marius Garshol.
    [BNF and EBNF: What are they and how do they work?](http://www.garshol.priv.no/download/text/bnf.html)
+1. [Grace Hopper to Programmers: Mind Your Nanoseconds!](http://highscalability.com/blog/2012/3/1/grace-hopper-to-programmers-mind-your-nanoseconds.html) –
+   – computing pioneer Grace Hopper, inventor of the compiler
 
 
 #### Linki
