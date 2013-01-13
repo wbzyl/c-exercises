@@ -147,6 +147,8 @@ Podręczniki:
    – computing pioneer Grace Hopper, inventor of the compiler
 1. Rich Hickey.
    [Simplicity Matters](http://www.youtube.com/watch?v=rI8tNMsozo0) – keynote na RailsConf 2012
+   ({%= link_to "slajdy", "/doc/simplicitymatters.pdf" %})
+
 
 #### Linki
 
