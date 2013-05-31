@@ -145,6 +145,9 @@ Podręczniki:
    [BNF and EBNF: What are they and how do they work?](http://www.garshol.priv.no/download/text/bnf.html)
 1. [Grace Hopper to Programmers: Mind Your Nanoseconds!](http://highscalability.com/blog/2012/3/1/grace-hopper-to-programmers-mind-your-nanoseconds.html) –
    – computing pioneer Grace Hopper, inventor of the compiler
+1. Rich Hickey.
+   [Simplicity Matters](http://www.youtube.com/watch?v=rI8tNMsozo0) – keynote na RailsConf 2012
+   ({%= link_to "slajdy", "/doc/simplicitymatters.pdf" %})
 
 
 #### Linki
