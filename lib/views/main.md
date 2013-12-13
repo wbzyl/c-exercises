@@ -59,6 +59,7 @@
    [Język ANSI C](http://wnt.pl/product.php?action=0&prod_id=481&hot=1)
 1. Richard M. Stallman, Roland McGrath, Paul D. Smith.
    [GNU Make](http://www.gnu.org/software/make/manual/)
+   - Mike Bostock, [Why Use Make](http://bost.ocks.org/mike/make/)
 1. Gary V. Vaughan, Ben Elliston, Tom Tromey, Ian Lance Taylor.
    [GNU Autoconf, Automake and Libtool](http://sources.redhat.com/autobook/)
 1. [Valgrind](http://valgrind.org/) –
