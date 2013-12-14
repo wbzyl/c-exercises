@@ -8,6 +8,9 @@
   <p class="author">— John W. Long</p>
 </blockquote>
 
+* [Binky Pointer Fun Video](http://www.youtube.com/watch?v=5VnDaHBi8dM)
+
+
 1\. Wskaźniki i adresy:
 
 * deklarowanie zmiennych wskaźnikowych
