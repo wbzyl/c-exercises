@@ -108,4 +108,27 @@ Linki: [cdecl](http://www.cdecl.org/),
 Przykład,
 {%= link_to "podaj dzień roku na podstawie miesiąca i dnia i na odwrót", "/pointers/cdate.c" %}.
 
- 
+10\. Tablice dynamiczne.
+
+ANSI 89:
+
+    :::c
+    int n = atoi(argv[1]);
+
+    double *dt;  
+    dt = malloc(n*sizeof(double));  
+    if (dt == NULL) 
+      fprintf(stderr, "error: Zabrakło pamięci");  
+
+    dt[2]=2.71; dt[3]=3.14;  
+    free(dt);
+
+ANSI 99 (sprawdzić!):
+
+    :::C
+    int n = atoi(argv[1]);
+
+    double dt[n];
+    
+    dt[2]=2.71; dt[3]=3.14;  
+    free(dt);
