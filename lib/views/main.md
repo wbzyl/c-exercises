@@ -45,6 +45,11 @@
   </p>
 </blockquote>
 
+## Moje notatki
+
+1. {%= link_to "Wskaźniki", "/notes/wskazniki" %}
+
+
 ## Zadania ekstra & rozwiązania
 
 * {%= link_to "Zadania extra", "/extra" %}
@@ -101,6 +106,11 @@ Podręczniki:
 
 1. {%= link_to "CSLib", "/doc/cslib-wb.tar.bz2" %} — biblioteka
    początkującego programisty C
+1. D. R. Hanson, 
+   [C Interfaces and Implementations: Techniques for Creating Reusable Software](https://sites.google.com/site/cinterfacesimplementations/)
+   (Addison-Wesley Professional Computing Series, 1997, ISBN 0201498413, ISBN-13 9780201498417)
+   - [cii source](http://code.google.com/p/cii/)
+   - [cii ported to autotools/libtool](https://github.com/kev009/cii)
 1. [A C language family frontend for LLVM](http://clang.llvm.org/index.html) —
    fast compiles and low memory use, **expressive diagnostics**,
    GCC compatibility
@@ -121,6 +131,7 @@ Podręczniki:
 1. Nick Parlante.
    [Essential C](http://cslibrary.stanford.edu/101/),
    [Pointers and Memory](http://cslibrary.stanford.edu/102/)
+   - [Binky Pointer Fun Video](http://www.youtube.com/watch?v=5VnDaHBi8dM)
 1. [6.087 Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/) – MIT Open Courseware
 1. Krzysztof Diks.
    [Wstęp do programowania w języku C](http://mediawiki.ilab.pl/index.php/Wst%C4%99p_do_programowania_w_j%C4%99zyku_C)
