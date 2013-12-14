@@ -47,7 +47,7 @@
 
 ## Moje notatki
 
-1. {%= link_to "Wskaźniki", "/notes/wskazniki" %}
+1. {%= link_to "Wskaźniki", "/notes-pointers" %}
 
 
 ## Zadania ekstra & rozwiązania
