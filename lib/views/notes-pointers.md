@@ -101,3 +101,8 @@ Linki: [cdecl](http://www.cdecl.org/),
     :::c
     char tname[][15] = { "błędny miesiąc","styczeń", ... };  
     char *pname[] = { "błędny miesiąc","styczeń", ... }; 
+
+Przykład,
+{%= link_to "podaj dzień roku na podstawie miesiąca i dnia i na odwrót", "/pointers/cdate.c" %}.
+
+ 

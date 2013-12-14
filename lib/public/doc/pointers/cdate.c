@@ -17,13 +17,6 @@ void usage(void);
 int main(int argc, char *argv[]) {
   int y, yd, m, d;
 
-  //int i;
-  //printf("\targc = %d\n", argc);
-  //printf("\targumenty wywołania programu:");
-  //for (i=0; i<argc; i++)
-  //  printf("  %s", argv[i]);
-  //printf("\n");
-
   if (argc != 3 && argc != 4)
     usage();
   else if (argc==3) { /* oblicz day i year */
