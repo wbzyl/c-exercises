@@ -7,7 +7,7 @@
     And only seven that you like, uh oh<br>
     20 ways to see the world, oh oh<br>
     Or 20 ways to start a fight</p>
-  <p class="author">— The Strokes, “You Only Live Once”</p>
+  <p class="author">The Strokes, <a href="http://www.youtube.com/watch?v=pT68FS3YbQ4">“You Only Live Once”</a></p>
 </blockquote>
 
 Linki:
@@ -16,6 +16,9 @@ Linki:
 * [GLib](http://pl.wikipedia.org/wiki/GLib) [API](https://developer.gnome.org/glib/unstable/)
   - [Hash Tables](https://developer.gnome.org/glib/unstable/glib-Hash-Tables.html) –
   associations between keys and values so that given a key the value can be found quickly
+  - Tom Copeland,
+  [Manage C data using the GLib collections](http://www.ibm.com/developerworks/linux/tutorials/l-glib/)
+
 * [GSL](http://www.gnu.org/software/gsl/) – GNU Scientific Library
 * David R. Hanson,
   [C Interfaces and Implementations](https://sites.google.com/site/cinterfacesimplementations/)
