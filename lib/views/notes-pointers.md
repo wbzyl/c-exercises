@@ -21,15 +21,15 @@
 
 2\. Wskaźniki i argumenty funkcji:
 
-* przekazywanie argumentów przez wartość i przez adres: 
+* przekazywanie argumentów przez wartość i przez adres:
 * funkcja {%= link_to "swap.c", "/pointers/swap.c" %}
 
 3\. Wskaźniki i tablice:
 
     :::c
-    int a[10];  
-    int *pa;  
-    pa = &a[0];  
+    int a[10];
+    int *pa;
+    pa = &a[0];
 
 Teraz `pa==a` oraz `a[0]==*pa`, `a[1]==*(pa+1)`, `a[2]==*(pa+2)`, itd.
 
@@ -40,10 +40,10 @@ położenie początkowego elementu tej tablicy. Wewnątrz funkcji
 argumentowi takiemu odpowiada zmienna lokalna będąca wskaźnikiem na
 początek tej tablicy.
 
-Uwaga: następujące definicje parametrów funkcji są równoważne: 
+Uwaga: następujące definicje parametrów funkcji są równoważne:
 
     :::c
-    char s[]  
+    char s[]
     char *s
 
 Dlatego obie deklaracje
@@ -51,19 +51,19 @@ Dlatego obie deklaracje
     :::c
     int str_len(char s[])
     int str_len(char *s)
-    
+
 też równoważne. Zwykle używamy `char *s`,
 ponieważ taka definicja wyraźnie sugeruje,
 że parametr jest wskaźnikiem.
 
-4\. Arytmetyka na adresach: 
+4\. Arytmetyka na adresach:
 {%= link_to "obliczanie długości napisu raz jeszcze", "/pointers/str_len2.c" %}.
 
 5\. Wskaźniki znakowe i funkcje. Jaka jest różnica między definicjami:
 
     :::c
-    char t[] = "XXX"  
-    char *p = "XXX"  
+    char t[] = "XXX"
+    char *p = "XXX"
 
 (tablica i wskaźnik na stałą napisową).
 
@@ -82,13 +82,13 @@ Przykłady funkcji działających na wskaźnikach:
 7\. Przeczytać stronę manuala dotyczącą funkcji `qsort`.
 Wskaźniki do funkcji, tablice wskaźników i wskaźniki do wskaźników.
 
-Tworzenie i rozumienie skomplikowanych deklaracji. 
+Tworzenie i rozumienie skomplikowanych deklaracji.
 Korzystamy z programu *cdecl*:
 
     :::c
-    explain char (*(*x())[])()  
-    declare x as function returning pointer to array  
-      of pointer to function returning char 
+    explain char (*(*x())[])()
+    declare x as function returning pointer to array
+      of pointer to function returning char
 
 Linki: [cdecl](http://www.cdecl.org/),
 {%= link_to "source code", "/doc/cdecl-blocks-2.5.tar.gz" %}.
@@ -102,8 +102,8 @@ Linki: [cdecl](http://www.cdecl.org/),
 9\. Tablice wielowymiarowe:
 
     :::c
-    char tname[][15] = { "błędny miesiąc","styczeń", ... };  
-    char *pname[] = { "błędny miesiąc","styczeń", ... }; 
+    char tname[][15] = { "błędny miesiąc","styczeń", ... };
+    char *pname[] = { "błędny miesiąc","styczeń", ... };
 
 Przykład,
 {%= link_to "podaj dzień roku na podstawie miesiąca i dnia i na odwrót", "/pointers/cdate.c" %}.
@@ -115,12 +115,12 @@ ANSI 89:
     :::c
     int n = atoi(argv[1]);
 
-    double *dt;  
-    dt = malloc(n*sizeof(double));  
-    if (dt == NULL) 
-      fprintf(stderr, "error: Zabrakło pamięci");  
+    double *dt;
+    dt = malloc(n*sizeof(double));
+    if (dt == NULL)
+      fprintf(stderr, "error: Zabrakło pamięci");
 
-    dt[2]=2.71; dt[3]=3.14;  
+    dt[2]=2.71; dt[3]=3.14;
     free(dt);
 
 ANSI 99 (sprawdzić!):
@@ -129,6 +129,6 @@ ANSI 99 (sprawdzić!):
     int n = atoi(argv[1]);
 
     double dt[n];
-    
-    dt[2]=2.71; dt[3]=3.14;  
+
+    dt[2]=2.71; dt[3]=3.14;
     free(dt);

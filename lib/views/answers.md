@@ -32,7 +32,7 @@ Zadanie 3.
     #include <stdio.h>
     int main()
     {
-      int ROK = 31536000;	  /* liczba sekund w roku */
+      int ROK = 31536000;     /* liczba sekund w roku */
       int ROK_P = 31622400;   /* liczba sekund w roku przestępnym */
       int ROK_BIEZACY = 2010;
 
