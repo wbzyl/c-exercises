@@ -48,6 +48,7 @@
 ## Moje notatki
 
 1. {%= link_to "Wskaźniki", "/notes-pointers" %}
+1. {%= link_to "Struktury i Abstrakcyjne Typy Danych", "/notes-adt" %}
 
 
 ## Zadania ekstra & rozwiązania
@@ -106,7 +107,7 @@ Podręczniki:
 
 1. {%= link_to "CSLib", "/doc/cslib-wb.tar.bz2" %} — biblioteka
    początkującego programisty C
-1. D. R. Hanson, 
+1. D. R. Hanson,
    [C Interfaces and Implementations: Techniques for Creating Reusable Software](https://sites.google.com/site/cinterfacesimplementations/)
    (Addison-Wesley Professional Computing Series, 1997, ISBN 0201498413, ISBN-13 9780201498417)
    - [cii source](http://code.google.com/p/cii/)
