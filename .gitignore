@@ -10,3 +10,4 @@ Gemfile.lock
 vendor/cache
 lib/tmp/always_restart.txt
 
+a.out

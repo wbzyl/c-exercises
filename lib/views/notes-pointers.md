@@ -110,11 +110,14 @@ Przykład,
 
 10\. Tablice dynamiczne.
 
-ANSI 89:
+Rozmiar tablicy pobierzemy z linii poleceń:
 
     :::c
     int n = atoi(argv[1]);
 
+W **ANSI 89** korzystamy z *malloc*:
+
+    :::c
     double *dt;
     dt = malloc(n*sizeof(double));
     if (dt == NULL)
@@ -123,12 +126,21 @@ ANSI 89:
     dt[2]=2.71; dt[3]=3.14;
     free(dt);
 
-ANSI 99 (sprawdzić!):
+A w **ANSI 99** nie musimy korzystać z *malloc*:
 
-    :::C
+    :::c
     int n = atoi(argv[1]);
-
     double dt[n];
 
     dt[2]=2.71; dt[3]=3.14;
-    free(dt);
+
+{%= link_to "Przykład", "/pointers/tabliced.c" %} kompilujemy tak:
+
+    :::bash
+    cc -std=c89 -Wall       tabliced.c
+    cc -std=c99 -Wall -DC99 tabliced.c
+
+**Uwaga:** Jeśli nie korzystamy z *malloc*, to tablica
+tworzona jest na „stosie” a nie na „stercie”.
+Oznacza to, że jej rozmiar ograniczony jest
+do wielkości stosu programu, czyli do kilkunastu megabajtów.
