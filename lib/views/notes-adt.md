@@ -17,6 +17,8 @@ Linki:
   - [Hash Tables](https://developer.gnome.org/glib/unstable/glib-Hash-Tables.html) –
   associations between keys and values so that given a key the value can be found quickly
 * [GSL](http://www.gnu.org/software/gsl/) – GNU Scientific Library
+* David R. Hanson,
+  [C Interfaces and Implementations](https://sites.google.com/site/cinterfacesimplementations/)
 
 
 ## Struktury
@@ -47,6 +49,20 @@ Zagnieżdżone struktury:
 Czasami warto skorzystać z *typedef*
 
 
+
+<blockquote>
+ {%= image_tag "/images/ants2.png", :alt => "[Ants 2]" %}
+ <p>Misunderstandings can arise when an author is thinking in a
+ broader context than the reader. A reader might be thinking
+ tactically:<br>
+ <b>How can I do a better job today?</b><br>
+ while the author is thinking strategically:
+ <b>How can we make a better tomorrow?</b?<br>
+ The misunderstanding becomes especially acute when real progress
+ requires abandoning today's world and starting over.
+ </p>
+ <p class="author">— B. Victor, <a href="http://worrydream.com/Links2013/">Reading Tip #3</a></p>
+</blockquote>
 
 
 ## Abstrakcyjne Type Danych (ADT)
