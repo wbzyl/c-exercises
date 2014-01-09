@@ -224,9 +224,9 @@ Aby się przekonać, gdzie została zainstalowana konkretna biblioteka
 możemy skorzystać z programu *pkg-config*, np. jeśli
 
     :::bash
-    pkg-config --libs glib
-    pkg-config --cflags glib
-    pkg-config --cflags --libs glib
+    pkg-config --libs glib gsl
+    pkg-config --cflags glib gsl
+    pkg-config --cflags --libs glib gsl
 
 Tak wygląda kompletny przykład:
 
