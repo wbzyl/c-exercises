@@ -189,8 +189,12 @@ pre, code {
 thead th {
   background-color: #ADD8C7;
 }
+
 li ul {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.75em;
+}
+li p {
+  margin-bottom: 0.5em;
 }
 
 .table1 {

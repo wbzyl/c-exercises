@@ -47,6 +47,7 @@ module WB
         'sql' => 'sql',
         'json' => 'json',
         'c' => 'c',
+        'h' => 'c',
         'sh' => 'bash'
       }
 
@@ -84,4 +85,3 @@ module WB
 
   end
 end
-
