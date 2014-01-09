@@ -220,7 +220,7 @@ program *fw* uruchamiamy tak:
 
 Biblioteki mogą być zainastalowane w kilku miejscach. Jakich?
 
-Aby się przekonać gdzie została zainstalowana konkretna biblioteka
+Aby się przekonać, gdzie została zainstalowana konkretna biblioteka
 możemy skorzystać z programu *pkg-config*, np. jeśli
 
     :::bash
