@@ -231,7 +231,13 @@ możemy skorzystać z programu *pkg-config*, np. jeśli
 Tak wygląda kompletny przykład:
 
     :::bash
-    gcc `pkg-config --cflags --libs glib` -o specific specific.c
+    cc -o specific specific.c `pkg-config --cflags --libs glib`
+
+*Uwaga:* Na Sigmie jest zainstalowana biblioteka GLib w wersji
+2.0-beta. Dlatego musimy dopisać wersję w poleceniu powyżej:
+
+    :::bash
+    cc -o specific specific.c `pkg-config --cflags --libs glib-2.0`
 
 Dwa przykłady:
 
