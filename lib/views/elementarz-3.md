@@ -1,7 +1,7 @@
 #### {% title "Elementarz 3" %}
 
 1\. W poniższym programie, który kopiując
-wejście na wyjście zastępuje kazdy znak tabulacji przez
+wejście na wyjście zastępuje każdy znak tabulacji przez
 \t oraz każdy znak \ przez dwa takie znaki, zostały
 przestawione wiersze. Uporzadkuj je, tak aby powstał
 działający program.</p>
@@ -26,10 +26,11 @@ z pierwszych 20 liczb naturalnych.
 Uwaga: Jeśli korzystamy z funkcji z biblioteki
 matematycznej języka C, to na początku programu piszemy
 `#include <math.h>`, a program kompilujemy
-z dodatkową opcją *-lm*. Zazwyczaj opcję tę znajdziemy
+z dodatkową opcją *-lm*. Zazwyczaj opcje wpisujemy
 w pliku *Makefile*:
 
-    CFLAGS=-Wall -g -lm
+    CFLAGS = -Wall -std=c11
+    LDLIBS = -lm
 
 3\. Trójkąt pitagorejski to trójkąt prostokątny,
 w którym długość każdego boku jest liczbą całkowitą.
@@ -54,4 +55,3 @@ na tekście tego akapitu może wyglądać tak:
     y       10   **********
     z        2   **
     ...    ...   ...
-
