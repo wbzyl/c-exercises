@@ -50,7 +50,6 @@ Zastosowanie ADT:
 
 Plik Makefile do kompilacji wszystkich wersji:
 
-    :::
     CFLAGS = -Wall -std=c11
     CC = gccx
 
