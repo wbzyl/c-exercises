@@ -36,3 +36,14 @@ Interfejs, *stack.h*:
     stackElementT GetStackElement(stackADT,int);
 
     #endif
+
+Implementacje:
+
+1. {%= link_to "stack1.c", "/stack/stack1.c" %} – implementacja korzystająca z tablic
+1. {%= link_to "stack2.c", "/stack/stack.c" %} – jw. ale bez ograniczenia na rozmiar stosu
+1. {%= link_to "stack1.c", "/stack/stack2.c" %} – implementacja korzystająca z list
+
+Zastosowanie:
+
+1. {%= link_to "rpn-simulator.c", "/stack/rpn-simulator.c" %} – kalkulator
+  używający odwrotnej notacji polskiej

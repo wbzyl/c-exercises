@@ -1,6 +1,6 @@
 /* 
  * Plik: stack1.c
- * Implementacja interfejsu `stack.h' korzystująca z tablic.
+ * Implementacja interfejsu `stack.h' korzystająca z tablic.
  */
 
 #include <stdio.h>
