@@ -40,8 +40,8 @@ Interfejs, *stack.h*:
 Implementacje:
 
 1. {%= link_to "stack1.c", "/stack/stack1.c" %} – implementacja korzystająca z tablic
-1. {%= link_to "stack2.c", "/stack/stack.c" %} – jw. ale bez ograniczenia na rozmiar stosu
-1. {%= link_to "stack1.c", "/stack/stack2.c" %} – implementacja korzystająca z list
+1. {%= link_to "stack.c", "/stack/stack.c" %} – jw. ale bez ograniczenia na rozmiar stosu
+1. {%= link_to "stack2.c", "/stack/stack2.c" %} – implementacja korzystająca z list
 
 Zastosowanie ADT:
 
