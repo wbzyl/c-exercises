@@ -33,7 +33,7 @@ Interfejs, *stack.h*:
     bool StackIsEmpty(stackADT);
     bool StackIsFull(stackADT);
     int StackDepth(stackADT);
-    stackElementT GetStackElement(stackADT,int);
+    stackElementT GetStackElement(stackADT, int);
 
     #endif
 
