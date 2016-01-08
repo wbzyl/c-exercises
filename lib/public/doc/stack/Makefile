@@ -1,6 +1,4 @@
-# abstrakcyjne typy danych
-
-CFLAGS = -g -Wall
+CFLAGS = -Wall -std=c11
 CC = gccx
 
 sources = stack.h stack2.c stack1.c stack.c rpn-simulation.c
@@ -24,4 +22,4 @@ rpn : rpn-simulation.o stack.o
 .PHONY : clean
 
 clean:
-	rm -f core *.o *~ \#* *.ps *.ljet4 $(programs)
+	rm -f core *.o *~ \#* $(programs)

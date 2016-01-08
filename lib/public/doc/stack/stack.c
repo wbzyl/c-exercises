@@ -1,7 +1,7 @@
 /*
- * Plik: stack.c
- * Implementacja interfejsu `stack.h' wykorzystująca tablice.
- * W tej implementacji usuwamy ograniczenie na rozmiar stosu.
+ * Implementacja interfejsu `stack.h' korzystująca ztablic.
+
+ * W tej implementacji usunito ograniczenie na rozmiar stosu.
  */
 
 #include <stdio.h>

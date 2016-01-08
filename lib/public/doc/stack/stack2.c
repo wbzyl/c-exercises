@@ -13,16 +13,8 @@ typedef struct cellT {
 } cellT;
 
 
-/* W taki sposób możemy zdefiniować stos; dlaczego tak -- zob. wykład. */
-struct stackCDT {
-  cellT *start;
-};
-
-/* UWAGA:
-   -------------------------------------------------------------------------
-   W ten sposób zdefiniowaliśmy konkretną strukturę danych,
-   w której szczegóły implementacji nie są dostępne dla klientów.
-   Dlatego każdą implementację struktury danych postaci:
+/* 
+   Każdą implementację zrealizowaną według schematu:
 
       typedef struct nazwaCDT *nazwaADT;  -- umieszczone w pliku nagłówkowym
       
@@ -30,8 +22,15 @@ struct stackCDT {
         deklaracje pól struktury
       };
 
-   nazywamy nieprzezroczystym typem danych.  
+   nazywamy nieprzezroczystym typem danych, ponieważ
+   szczegóły jej implementacji nie są dostępne dla klientów.
  */
+
+
+struct stackCDT {
+  cellT *start;
+};
+
 
 stackADT NewStack(void)
 {

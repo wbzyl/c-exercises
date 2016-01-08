@@ -6,7 +6,6 @@
 
 #include <stdio.h>
 #include <ctype.h>
-#include <stdlib.h> /* EXIT_SUCCESS */
 #include "genlib.h"
 #include "simpio.h"
 #include "strlib.h"
@@ -41,7 +40,6 @@ int main ()
         break;
     }
   }
-  return EXIT_SUCCESS;
 }
 
 static void ApplyOperator(char op, stackADT stack) 
