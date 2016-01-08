@@ -45,5 +45,6 @@ Implementacje:
 
 Zastosowanie ADT:
 
-1. {%= link_to "rpn-simulator.c", "/stack/rpn-simulator.c" %} – kalkulator
+1. {%= link_to "rpn-simulation.c", "/stack/rpn-simulation.c" %} – kalkulator
   używający odwrotnej notacji polskiej
+1. Plik {%= link_to "Makefile", "/stack/Makefile" %} do kompilacji wszystkich wersji 
