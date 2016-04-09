@@ -29,6 +29,7 @@
 1. {%= link_to "Wskaźniki 1", "/wskazniki-1" %}
 1. {%= link_to "Wskaźniki 2", "/wskazniki-2" %}
 1. {%= link_to "Struktury", "/struktury" %}
+1. {%= link_to "QSort", "/qsort" %}
 1. {%= link_to "Stos", "/stack" %}
 1. {%= link_to "Drzewa binarne", "/drzewa-binarne" %}
 1. {%= link_to "Trening czyni misztrza, miszcza, mistrza …", "/tcmmm" %}
