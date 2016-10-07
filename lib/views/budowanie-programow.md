@@ -166,7 +166,7 @@ w pliku *Makefile*.
 Zaczynamy od wykonania poniższego polecenia na terminalu:
 
     :::bash
-    export CFLAGS='-g -Wall -std=gnu99'
+    export CFLAGS='-g -Wall -std=c11'
     export LDLIBS='-lm'
 
 Teraz aby przetłumaczyć *hello.c* z C na *hello* wykonujemy:
@@ -181,7 +181,7 @@ Dla programów składających się z jednego pliku, wystarczy utworzyć
 plik *Makefile* o takiej zawartości:
 
     :::text
-    CFLAGS=-g -Wall -std=gnu99
+    CFLAGS=-g -Wall -std=c11
     LDLIBS=-lm
 
     clean:
