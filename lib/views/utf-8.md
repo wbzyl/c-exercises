@@ -2,7 +2,7 @@
 
 Poniższe programy kompilujemy tak:
 
-    cc -std=c99 -Wall FILENAME
+    cc -std=c11 -Wall FILENAME
 
 Polecenia *locales* używamy do sprawdzenia zainstalowanych
 w systemie locales, na przykład:
