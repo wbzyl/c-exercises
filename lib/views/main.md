@@ -43,7 +43,7 @@
   <p>
   Wallace (left), an absent-minded inventor living in Wigan, Lancashire.
   He is well-known as being a great designer and constructor of
-  <a href="">the Rube Goldberg machines</a>.
+  <a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">the Rube Goldberg machines</a>.
   </p>
 </blockquote>
 
