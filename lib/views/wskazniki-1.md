@@ -22,7 +22,7 @@ Czego adresem jest `ref`? a `ref+1`?
 (a)
     :::c
     int *wsk;
-    int tab[2][2] = {{12, 14}, {16};
+    int tab[2][2] = {{12, 14}, {16}};
     wsk = tab[0];
 
 (b)
