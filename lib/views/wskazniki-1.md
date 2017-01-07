@@ -52,7 +52,7 @@ tak aby powstał działający program:
        int liczba;
        wczytaj_liczbe(&liczba);
        podnies_do_kwadratu(&liczba);
-       printf("Kwadrtat wczytanej liczby to %d\n", liczba);
+       printf("Kwadrat wczytanej liczby to %d\n", liczba);
        return 0;
     }
 
