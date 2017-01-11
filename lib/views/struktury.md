@@ -99,6 +99,45 @@ Na początek napisz uproszczoną wersję:
     int area(struct rect r1, struct rect r2);
 
 
+## Lepsze struktury w ISO C99
+
+Trzy nowe rzeczy w składni C: _compound literals_, _variable-length macros_,
+and _designated initializers_.
+
+Przykład z _designated initializers_:
+
+    :::c
+    person_struct p = {
+      .name = "Joe",
+      .age = 22,
+      .weight_kg = 75,
+      .education_years = 20
+    };
+
+Przykład z _compound literal_:
+
+    :::c
+    #include <math.h> // NAN
+    #include <stdio.h>
+
+    double sum(double in[]){
+      double out = 0;
+
+      for (int i = 0; !isnan(in[i]); i++)
+        out += in[i];
+      return out;
+    }
+
+    int main() {
+      // use intermediate variable
+      double list[] = {1.1, 2.2, 3.3, NAN};
+      printf("sum: %g\n", sum(list));
+
+      // use a compound literal to create an array; do not use intermediate variable
+      printf("sum: %g\n", sum((double[]){1.1, 2.2, 3.3, NAN}));
+    }
+
+
 ## Nowe zadania
 
 5\. Napisać program, który dla podanych dwóch prostokątów wylicza
