@@ -52,10 +52,14 @@ Jeśli teraz umówimy się, że *F* oznacza polecenie: narysuj odcinek,
 *+* oznacza skręć w lewo o 60°, a *-* skręć w prawo o 60°, to
 otrzymamy taki rysunek
 
-Więcej przykładów L-systemów znajdziesz np.
+8\. Więcej przykładów L-systemów znajdziesz np.
 <a href="http://mathforum.org/advanced/robertd/lsys2d.html">tutaj</a>.
 Narysuj jeden z fraktali przedstawionych na tej stronie. Zaprojektuj
 i narysuj własnego fraktala.
+
+Więcej przykładów fraktali znajdziesz w książce Jeffrey’a Ventrella,
+[Brainfilling Curves – a Fractal Bestiary](http://archive.org/stream/BrainfillingCurves-AFractalBestiary/BrainFilling#page/n1/mode/2up).
+
 
 I jeszcze kilka przykładów w Pythonie: Al Sweigart,
 [Recursion Explained with the Flood Fill Algorithm (and Zombies and Cats)](http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/).
