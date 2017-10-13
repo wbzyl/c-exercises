@@ -15,14 +15,14 @@
 ## Laboratoria
 
 1. {%= link_to "Budowanie programów w języku C", "/budowanie-programow" %}
-1. {%= link_to "Podstawowe typy danych", "/podstawowe-typy-danych" %}
-1. {%= link_to "Funkcje", "/funkcje" %}
-1. {%= link_to "Wskaźniki 1", "/wskazniki-1" %}
-1. {%= link_to "ASCII v. UTF-8", "/utf-8" %}
 1. {%= link_to "Elementarz 1", "/elementarz-1" %}
 1. {%= link_to "Pętle", "/petle" %}
-1. {%= link_to "Automaty skończone", "/automaty" %}
 1. {%= link_to "Elementarz 2", "/elementarz-2" %}
+1. {%= link_to "Funkcje", "/funkcje" %}
+1. {%= link_to "Podstawowe typy danych", "/podstawowe-typy-danych" %}
+1. {%= link_to "Wskaźniki 1", "/wskazniki-1" %}
+1. {%= link_to "ASCII v. UTF-8", "/utf-8" %}
+1. {%= link_to "Automaty skończone", "/automaty" %}
 1. {%= link_to "Operatory", "/operatory" %}
 1. {%= link_to "Elementarz 3", "/elementarz-3" %}
 1. {%= link_to "Rekurencja", "/rekurencja" %}
