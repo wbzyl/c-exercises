@@ -22,13 +22,13 @@ Czego adresem jest `ref`? a `ref+1`?
 (a)
     :::c
     int *wsk;
-    int tab[2][2] = {{12, 14}, {16};
+    int tab[2][2] = {{12, 14}, {16}};
     wsk = tab[0];
 
 (b)
     :::c
     int *wsk;
-    int tab[2][2] = { {12}, {14, 16} };
+    int tab[2][2] = {{12}, {14, 16}};
     wsk = tab[0];
 
 Napisz prosty program, który sprawdzi twoje odpowiedzi.
@@ -52,7 +52,7 @@ tak aby powstał działający program:
        int liczba;
        wczytaj_liczbe(&liczba);
        podnies_do_kwadratu(&liczba);
-       printf("Kwadrtat wczytanej liczby to %d\n", liczba);
+       printf("Kwadrat wczytanej liczby to %d\n", liczba);
        return 0;
     }
 

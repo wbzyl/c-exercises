@@ -107,8 +107,10 @@ podzielić przez liczbę wszystkich zliczonych znaków.
 
 Do pobrania plików wykorzystaj program *curl* lub *wget*:
 
-    wget http://www.gutenberg.org/files/4300/4300.txt
-    wget http://www.gutenberg.org/dirs/etext04/7ldv110.txt
+    # # James Joyce, Ulysses
+    wget http://www.gutenberg.org/files/4300/4300-0.txt
+    # The Notebooks of Leonardo Da Vinci
+    wget http://www.gutenberg.org/files/5000/5000-8.txt
 
 5\. Napisz program, który wczytuje plik tekstowy w formacie:
 pierwszy wiersz aktualny format danych w pliku,
