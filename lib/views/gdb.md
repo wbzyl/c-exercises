@@ -28,6 +28,6 @@ Najczęściej wykonywane polecenia:
 * **bt** – pokaż stos programu
 * **quit** – zakończ pracę
 * **c** – kontynuuj
-* **u** – zakończ wykonywanie pętli
+* **adv LOCATION** – zob. _*help adv** (aby zakończyć wykonywanie pętli)
 * **return WYRAŻENIE** – anuluj wywołanie funkcji (zwróć WYRAŻENIE)
 * **finish** – zakończ wykonywanie funkcję; wypisz zwracaną wartość
