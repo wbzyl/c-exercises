@@ -24,7 +24,7 @@ Najczęściej wykonywane polecenia:
 * **n** – wykonaj następną linię programu
 * **s** – j.w. ale przejdź do funkcji wywoływanych
 * **p WYRAŻENIE** – wypisz wartość wyrażenia
-* watch ZMIENNA – śledź zmiany wartości zmiennej
+* **watch ZMIENNA** – śledź zmiany wartości zmiennej
 * **bt** – pokaż stos programu
 * **quit** – zakończ pracę
 * **c** – kontynuuj
