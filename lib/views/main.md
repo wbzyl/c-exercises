@@ -15,6 +15,9 @@
 ## Laboratoria
 
 1. {%= link_to "Budowanie programów w języku C", "/budowanie-programow" %}
+1. {%= link_to "GDB", "/gdb" %}
+1. {%= link_to "Podstawowe typy danych", "/podstawowe-typy-danych" %}
+1. {%= link_to "ASCII v. UTF-8", "/utf-8" %}
 1. {%= link_to "Elementarz 1", "/elementarz-1" %}
 1. {%= link_to "Pętle", "/petle" %}
 1. {%= link_to "Elementarz 2", "/elementarz-2" %}
