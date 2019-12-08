@@ -13,4 +13,4 @@ all : $(programs)
 
 .PHONY : clean
 clean :
-	-rm *~ $(programs)
+	-rm -f *~ $(programs)
